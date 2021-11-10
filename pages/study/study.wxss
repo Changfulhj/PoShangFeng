@@ -1,0 +1,72 @@
+/* pages/study/study.wxss */
+.study-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.myclass-item{
+  width: 691.42rpx;
+  height: 100rpx;
+  background-color: rgb(245, 58, 95);
+  border-radius: 18.1rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 60rpx;
+  color: rgb(255, 247, 238);
+  margin-top: 20rpx;
+}
+
+.myclass-container{
+  width: 691.42rpx;
+  height: 270rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1.81rpx solid #bbbbbb;
+  border-radius: 18.1rpx;
+  background-color: rgb(247, 240, 240);
+  margin-top: 40rpx;
+  box-shadow: 0rpx 2rpx 2rpx 0rpx rgb(199, 218, 255);
+}
+
+.myclass-container image{
+  width: 334.85rpx;
+  height: 217.2rpx;
+  border-radius: 18.1rpx;
+}
+.myclass-info{
+  width: 280rpx;
+  height: 217.2rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.myclass-title{
+  font-size: 50rpx;
+  font-weight: 700;
+}
+.myclass-teacher{
+  margin-top: 15rpx;
+  color: #bbbbbb;
+  margin-bottom: 10rpx;
+  font-size: 35rpx;
+}
+.myclass-progress{
+  margin-top: 20rpx;
+}
+
+.myclass-progress-studied{
+  font-size: 40rpx;
+  font-weight: 700;
+  color: cornflowerblue;
+}
+.myclass-progress-num{
+  margin-left: 10rpx;
+  font-size: 50rpx;
+  font-weight: 700;
+  color: rgb(248, 116, 112);
+}

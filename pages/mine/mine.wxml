@@ -1,0 +1,19 @@
+<!--pages/mine/mine.wxml-->
+<view class="mine-container">
+  <view class="userinfo">
+    <image src="/images/icons/我的.png"></image>
+    <text class="uername">七国守护者</text>
+  </view>
+
+  <view class="options-container">
+    <view class="options">
+      <l-list title="我的讨论" desc="查看我的讨论" image="/images/icons/icon3/讨论区.png"/>
+      <l-list title="我的课程" desc="查看我的课程" image="/images/icons/icon3/课程.png"/>
+      <l-list title="我的证书" desc="查看我的证书" image="/images/icons/icon3/证书.png"/>
+      <l-list title="我的收藏" desc="查看我的收藏" image="/images/icons/icon3/_收藏.png"/>
+    </view>
+  </view>
+  <view class="exitbutton">
+    <l-button size="large" type="error">退出账号</l-button>
+  </view>
+</view>

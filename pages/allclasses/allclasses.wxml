@@ -1,0 +1,17 @@
+<view class="allclasses-container">
+  <view class="menu">
+    <l-segment bind:linchange="changeTabs" scrollable="">
+            <l-segment-item tab="全部课程" key="one" />
+            <l-segment-item tab="前端开发" key="two" />
+            <l-segment-item tab="后端开发" key="three" />
+            <l-segment-item tab="移动开发" key="four" />
+            <l-segment-item tab="游戏开发" key="five" />
+            <l-segment-item tab="测试" key="six" />
+            <l-segment-item tab="运维" key="seven" />
+            <l-segment-item tab="前沿技术" key="eight" />
+    </l-segment>   
+  </view>
+
+</view>
+
+

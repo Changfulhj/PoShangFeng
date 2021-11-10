@@ -1,0 +1,49 @@
+<!--pages/home/home.wxml-->
+<view class="home-container">
+  <swiper>
+    <swiper-item><image src="/images/test02.jpeg"></image></swiper-item>
+    <swiper-item><image src="/images/test03.jpeg"></image></swiper-item>
+  </swiper>
+
+  <view class="recommend-nav">
+    
+    <view class="nav1">
+    <block wx:for="{{nav1data}}">
+      <view class="nav-item">
+        <image src="{{item.NavIcon}}"></image>
+        <text>{{item.NavItemName}}</text>
+      </view> 
+    </block>
+    </view>
+
+    <view class="nav2">
+      <block wx:for="{{nav2data}}">
+        <view class="nav-item">
+          <image src="{{item.NavIcon}}"></image>
+          <text>{{item.NavItemName}}</text>
+        </view> 
+      </block>
+    </view>
+  </view>
+
+  <view class="recomend-classes">
+    <text class="recommend-text">推荐好课</text>
+    <view class="recommend-items">
+      <block wx:for="{{recomenddata}}">
+        <view class="recommend-item">
+        <image src="{{item.headimgsrc}}"></image>
+        <text class="item-title">{{item.title}}</text>
+        <text class="item-teacher">{{item.teacher}}</text>
+        <view>
+          <text class="item-people">{{item.peoplenum}}人报名</text>
+          <text class="item-price">￥{{item.price}}</text>
+        </view>
+      </view>
+      </block>
+
+      
+    </view>
+
+  </view>
+
+</view>
