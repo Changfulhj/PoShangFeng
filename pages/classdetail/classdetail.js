@@ -1,18 +1,24 @@
 // pages/classdetail/classdetail.js
+import {homedata} from '../../data/homedata.js';
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    thisclassdata : {}
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    console.log(options);
+    const thisclassdata = homedata[2][options.cid];
+    this.setData({
+      thisclassdata
+    })
   },
 
   /**

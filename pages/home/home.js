@@ -20,9 +20,11 @@ Page({
     this.setData({recomenddata:homedata[2]});
   },
 
-  onTap: function(){
+  ongoTodetail: function(event){
+    console.log(event);
+    const cid = event.currentTarget.dataset.classId;
     wx.navigateTo({
-      url: '/pages/classdetail/classdetail',
+      url: '/pages/classdetail/classdetail?cid=' + cid
     })
 
 
