@@ -35,6 +35,12 @@
           "pathName": "pages/study/study",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/classdetail/classdetail",
+          "pathName": "pages/classdetail/classdetail",
+          "query": "",
+          "scene": null
         }
       ]
     }

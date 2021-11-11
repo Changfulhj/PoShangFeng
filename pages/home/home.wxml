@@ -30,7 +30,7 @@
     <text class="recommend-text">推荐好课</text>
     <view class="recommend-items">
       <block wx:for="{{recomenddata}}">
-        <view class="recommend-item">
+        <view class="recommend-item" bind:tap="onTap">
         <image src="{{item.headimgsrc}}"></image>
         <text class="item-title">{{item.title}}</text>
         <text class="item-teacher">{{item.teacher}}</text>

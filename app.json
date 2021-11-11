@@ -4,7 +4,8 @@
     "pages/welcome/welcome",
     "pages/allclasses/allclasses",
     "pages/mine/mine",
-    "pages/study/study"
+    "pages/study/study",
+    "pages/classdetail/classdetail"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,7 +1,4 @@
-// pages/home/home.js
-
-import {homedata} from '../../data/homedata.js';
-
+// pages/classdetail/classdetail.js
 Page({
 
   /**
@@ -15,16 +12,6 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.setData({nav1data:homedata[0]});
-    this.setData({nav2data:homedata[1]});
-    this.setData({recomenddata:homedata[2]});
-  },
-
-  onTap: function(){
-    wx.navigateTo({
-      url: '/pages/classdetail/classdetail',
-    })
-
 
   },
 

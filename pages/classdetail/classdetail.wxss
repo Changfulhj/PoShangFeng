@@ -1,0 +1,100 @@
+/* pages/class-detail/class-detail.wxss */
+
+.detail-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.head-img{
+  width: 100%;
+  height: 372.86rpx;
+}
+
+.class-shuxing{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 12.67rpx;
+}
+.class-shuxing image{
+  width: 63.35rpx;
+  height: 63.35rpx;
+}
+.class-shuxing text{
+  margin-left: 45.25rpx;
+  color: rgb(130, 131, 133);
+}
+.dresses{
+  margin-top: 0rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dresses-cir image{
+  height: 60rpx;
+  width: 60rpx;
+}
+
+.dresses-cir{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 676.94rpx;
+}
+
+.share-icon{
+  margin-left: 27.15rpx;
+}
+
+.line{
+  height: 0rpx;
+  width: 676.94rpx;
+  border: 1rpx solid #666;
+  position: absolute;
+  z-index: -99;
+}
+
+.class-xiangqing{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.class-title{
+  font-size: 86.88rpx;
+  font-weight: 900;
+  margin-left: 36.2rpx;
+}
+.class-fenlei{
+  margin-right: 36.2rpx;
+  margin-bottom: 4.525rpx;
+  color: rgb(141, 141, 141);
+}
+
+.class-post{
+  margin-left: 18.1rpx;
+  margin-top: 18.1rpx;
+  margin-right: 18.1rpx;
+  font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.class-purchase{
+  width: 200rpx;
+  height: 100rpx;
+  background-color: #7EC6A2;
+  border-radius: 90rpx 36.2rpx 0rpx 0rpx;
+  position:fixed;
+  bottom: 0rpx;
+  right: 0rpx;
+  box-shadow: 0rpx 1.81rpx 5.43rpx 0px #000000;
+}
+
+.class-purchase text{
+  font-size: 60rpx;
+  margin-left: 45.25rpx;
+  margin-top: 80rpx;  
+  line-height: 100rpx;
+}
