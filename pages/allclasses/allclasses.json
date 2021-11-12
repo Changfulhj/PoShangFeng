@@ -1,11 +1,3 @@
 {
-  "usingComponents": {
-    "l-segment":"/miniprogram_npm/lin-ui/segment/index",
-    "l-segment-item":"/miniprogram_npm/lin-ui/segment-item/index",
-    "l-button":"/miniprogram_npm/lin-ui/button/index",
-    "l-tabs":"/miniprogram_npm/lin-ui/tabs/index",
-    "l-tabpanel":"/miniprogram_npm/lin-ui/tabpanel/index",
-    "l-list":"/miniprogram_npm/lin-ui/list/index",
-    "l-progress":"/miniprogram_npm/lin-ui/progress"
-  }
+  "usingComponents": {}
 }

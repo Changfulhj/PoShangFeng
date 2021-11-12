@@ -7,20 +7,34 @@ Page({
    * 页面的初始数据
    */
   data: {
-    thisclassdata : {}
+    thisclassdata : {},
+    collected:false,
+    _cid : null
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log(options);
     const thisclassdata = homedata[2][options.cid];
+    this.data._cid = options.cid;
+    const class_collected = wx.getStorageSync('class_collected')
+    const thiscollected = class_collected[this.data._cid]
     this.setData({
-      thisclassdata
+      thisclassdata,
+      collected:thiscollected  //初始化的时候给收藏bool值
     })
   },
 
+
+  onCollect:function(){
+    const classcollected = {};
+    classcollected[this.data._cid] = true;
+    wx.setStorageSync('class_collected', classcollected);
+    this.setData({
+      collected:classcollected[this.data._cid]
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
