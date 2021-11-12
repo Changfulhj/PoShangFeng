@@ -41,6 +41,12 @@
           "pathName": "pages/classdetail/classdetail",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/welcome/welcome",
+          "pathName": "pages/welcome/welcome",
+          "query": "",
+          "scene": null
         }
       ]
     }
