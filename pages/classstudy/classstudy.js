@@ -1,4 +1,4 @@
-// pages/study/study.js
+// pages/classstudy/classstudy.js
 Page({
 
   /**
@@ -9,12 +9,12 @@ Page({
   },
 
 
-  gotoViedo(){
-    wx.navigateTo({
-      url: '/pages/classstudy/classstudy',
-    })
 
+  
+  linchange(e){
+    console.log(e);
   },
+
   /**
    * 生命周期函数--监听页面加载
    */

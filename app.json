@@ -5,7 +5,8 @@
     "pages/allclasses/allclasses",
     "pages/mine/mine",
     "pages/study/study",
-    "pages/classdetail/classdetail"
+    "pages/classdetail/classdetail",
+    "pages/classstudy/classstudy"
   ],
   "window": {
     "backgroundTextStyle": "light",

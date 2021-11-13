@@ -5,7 +5,7 @@
   </view>
 
 
-  <view class="myclass-container">
+  <view bindtap="gotoViedo" class="myclass-container">
     <image src="/images/item01.jpeg"></image>
     <view class="myclass-info">
       <text class="myclass-title">标题</text>

@@ -1,0 +1,32 @@
+<!--pages/classstudy/classstudy.wxml-->
+<view class="classstudy-container">
+  <video src=""></video>
+  <l-segment bind:tap="linchange">
+    <l-segment-item tab="课程目录" key="one">
+      <text>这就是目录</text>
+    </l-segment-item>
+    <l-segment-item tab="练习/考试" key="two">
+      <text>这就是练习考试</text>
+    </l-segment-item>
+    <l-segment-item tab="讨论区" key="three">
+      <text>这就是讨论区</text>
+    </l-segment-item>
+  </l-segment>
+
+    <view class="class-menu">
+      <l-collapse type="accordion">
+        <l-collapse-item title="第一章">
+          
+        </l-collapse-item>
+        <l-collapse-item title="第二章">
+          <text>西西</text>
+        </l-collapse-item>
+        <l-collapse-item title="第三章">
+          <text>巴拉巴拉</text>
+        </l-collapse-item>
+      </l-collapse>
+
+    </view>
+
+
+</view>
