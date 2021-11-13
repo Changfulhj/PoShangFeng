@@ -75,9 +75,9 @@
 }
 
 .class-post{
-  margin-left: 18.1rpx;
+  margin-left: 30rpx;
   margin-top: 18.1rpx;
-  margin-right: 18.1rpx;
+  margin-right: 30rpx;
   font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 

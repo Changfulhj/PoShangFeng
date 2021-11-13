@@ -10,22 +10,19 @@
     <view class="dresses-cir">
       <image wx:if="{{collected}}" bind:tap="onCollect" src="/images/icons/icon4/收藏夹.svg"></image>
       <image wx:else bind:tap="onCollect" src="/images/icons/icon4/未收藏.svg"></image>
-      <image class="share-icon" src="/images/icons/icon4/分享.svg"></image>
+      <image bindtap="onShare" class="share-icon" src="/images/icons/icon4/分享.svg"></image>
     </view>
     <view class="line"></view>
   </view>
 
   <view class="class-xiangqing">
     <text class="class-title">{{thisclassdata.title}}</text>
-    <text class="class-fenlei">目录</text>
   </view>
 
-
-  <!-- <view class="line"></view> -->
-
   <text class="class-post">{{thisclassdata.detailinfo}}</text>
-
   <view class="class-purchase">
     <text>购买</text>
   </view>
+
+
 </view>

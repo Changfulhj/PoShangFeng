@@ -7,9 +7,10 @@ Page({
    * 页面的初始数据
    */
   data: {
-    thisclassdata : {},
+    thisclassdata:{},
     collected:false,
-    _cid : null
+    _cid:null,
+    _classesconllected:{}
   },
 
   /**
@@ -18,8 +19,13 @@ Page({
   onLoad: function (options) {
     const thisclassdata = homedata[2][options.cid];
     this.data._cid = options.cid;
-    const class_collected = wx.getStorageSync('class_collected')
-    const thiscollected = class_collected[this.data._cid]
+    const temp = wx.getStorageSync('class_collected')
+    this.data._classesconllected = temp
+    let thiscollected = temp[this.data._cid]
+
+    if (thiscollected === undefined) {
+      thiscollected = false
+    }
     this.setData({
       thisclassdata,
       collected:thiscollected  //初始化的时候给收藏bool值
@@ -28,13 +34,26 @@ Page({
 
 
   onCollect:function(){
-    const classcollected = {};
-    classcollected[this.data._cid] = true;
-    wx.setStorageSync('class_collected', classcollected);
+    const temp = this.data._classesconllected
+    temp[this.data._cid] = !this.data.collected
     this.setData({
-      collected:classcollected[this.data._cid]
+      collected:this.data._classesconllected[this.data._cid]
+    })
+    
+    wx.setStorageSync('class_collected',temp)
+    wx.showToast({
+      title: this.data.collected?"收藏成功":"取消收藏"
     })
   },
+
+  onShare(){
+    wx.showActionSheet({
+      itemList: ["分享到QQ", "分享到"],
+    })
+
+
+  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

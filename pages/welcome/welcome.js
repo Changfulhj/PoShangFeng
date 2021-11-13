@@ -40,6 +40,9 @@ Page({
     wx.switchTab({
       url: '/pages/home/home',
     })
+    wx.showToast({
+      title: '登录成功',
+    })
   },
  
   // 登录处理
