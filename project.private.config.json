@@ -53,6 +53,12 @@
           "pathName": "pages/classstudy/classstudy",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/test/test",
+          "pathName": "pages/test/test",
+          "query": "",
+          "scene": null
         }
       ]
     }

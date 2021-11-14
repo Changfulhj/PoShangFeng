@@ -22,13 +22,13 @@
 .nav_left .nav_left_items.active{
   position:relative;
   background:#FFF;
-  color:#ff3434;
+  color:#FF5000;
 }
 .nav_left .nav_left_items.active::before{
   display: inline-block;
   width:6rpx;
   height:60rpx;
-  background:#ff3434;
+  background:#FE5723;
   content:'';
   position:absolute;
   top:20rpx;

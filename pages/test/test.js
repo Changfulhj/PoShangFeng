@@ -5,73 +5,81 @@ Page({
    * 页面的初始数据
    */
   data: {
-    cateItems: [{
-        cate_id: 1,
-        cate_name: '前端开发',
-        children: [{
-            child_id: 1,
-            name: 'ff',
-            image: "/images/icons/icons2/c++语言.png"
-          },
-          {
-            child_id: 2,
-            name: 'ff',
-            image: "../../images/thumbnail/2.jpg"
+    cateItems:[
+      {
+        cate_id:1,
+        cate_name:'洗护',
+        children: [
+          { 
+            child_id: 1, 
+            name: '洁面皂', 
+            image: "../../images/thumbnail/1.jpg" 
+          }, 
+          { 
+            child_id: 2, 
+            name: '卸妆', 
+            image: "../../images/thumbnail/2.jpg"  
           }
         ]
       },
       {
-        cate_id: 2,
-        cate_name: '后端开发'
+        cate_id:2,
+        cate_name:'生鲜'
       },
       {
-        cate_id: 3,
-        cate_name: '移动开发'
+        cate_id:3,
+        cate_name:'食品'
       },
       {
         cate_id: 4,
-        cate_name: '计算机基础'
+        cate_name: '女装'
       },
       {
         cate_id: 5,
-        cate_name: '前沿技术'
+        cate_name: '百货'
       },
       {
         cate_id: 6,
-        cate_name: '云计算'
+        cate_name: '母婴'
       },
       {
         cate_id: 7,
-        cate_name: '大数据'
+        cate_name: '手机'
       },
       {
         cate_id: 8,
-        cate_name: '运维&测试'
+        cate_name: '鞋靴'
       },
       {
         cate_id: 9,
-        cate_name: '数据库'
+        cate_name: '运动'
       },
       {
         cate_id: 10,
-        cate_name: 'UI设计'
+        cate_name: '美家'
       },
       {
         cate_id: 11,
-        cate_name: '游戏'
+        cate_name: '男装'
+      },
+      {
+        cate_id: 12,
+        cate_name: '水果'
+      },
+      {
+        cate_id: 13,
+        cate_name: '电子'
       }
-
     ],
-    curNav: 1,
-    curIndex: 0
+    curNav:1,
+    curIndex:0
   },
-
-  switchRightTab: function (e) {
-    let id = e.target.dataset.id,
-      index = e.target.dataset.index;
+ 
+  switchRightTab:function(e){
+    let id = e.target.dataset.id,index=e.target.dataset.index;
     this.setData({
-      curNav: id,
-      curIndex: index
+      curNav:id,
+      curIndex:index
     })
   },
 

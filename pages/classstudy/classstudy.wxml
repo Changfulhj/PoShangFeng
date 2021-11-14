@@ -1,32 +1,47 @@
 <!--pages/classstudy/classstudy.wxml-->
 <view class="classstudy-container">
   <video src=""></video>
-  <l-segment bind:tap="linchange">
-    <l-segment-item tab="课程目录" key="one">
-      <text>这就是目录</text>
-    </l-segment-item>
-    <l-segment-item tab="练习/考试" key="two">
-      <text>这就是练习考试</text>
-    </l-segment-item>
-    <l-segment-item tab="讨论区" key="three">
-      <text>这就是讨论区</text>
-    </l-segment-item>
-  </l-segment>
 
-    <view class="class-menu">
-      <l-collapse type="accordion">
-        <l-collapse-item title="第一章">
-          
-        </l-collapse-item>
-        <l-collapse-item title="第二章">
-          <text>西西</text>
-        </l-collapse-item>
-        <l-collapse-item title="第三章">
-          <text>巴拉巴拉</text>
-        </l-collapse-item>
-      </l-collapse>
+  <view class="swiper-tab">
+    <view class="swiper-tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTab">课程目录</view>
+    <view class="swiper-tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="clickTab">练习/考试</view>
+    <view class="swiper-tab-item {{currentTab==2?'active':''}}" data-current="2" bindtap="clickTab">讨论</view>
+  </view>
 
-    </view>
+  <swiper current="{{currentTab}}" duration="300" bindchange="swiperTab">
+    <swiper-item class="menu">
+      <view class="class-menu">
+        <l-collapse type="accordion">
+          <l-collapse-item title="第一章">
+            
+          </l-collapse-item>
+          <l-collapse-item title="第二章">
+            <text>西西</text>
+          </l-collapse-item>
+          <l-collapse-item title="第三章">
+            <text>巴拉巴拉</text>
+          </l-collapse-item>
+        </l-collapse>
+      </view>
+
+
+    </swiper-item>
+    
+    <swiper-item class="exam">
+      <text>这是练习和考试</text>
+    </swiper-item>
+    
+    <swiper-item class="talk">
+      <text>这是讨论区</text>
+    </swiper-item>
+
+
+  </swiper>
+
+
+
+
+
 
 
 </view>
