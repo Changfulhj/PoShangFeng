@@ -10,7 +10,7 @@
       <block wx:for="{{cateItems[curIndex].children}}" wx:key="{{index}}">
         <view class="nav_right_items">
         <!--界面跳转 -->
-          <navigator url="/pages/classstudy/classstudy">
+          <navigator data-cc="{{item.cate_class}}" url="/pages/test/test?cc={{item.cate_class}}" >
             <image src="{{item.image}}"></image>
             <text>{{item.name}}</text>
           </navigator>
@@ -19,7 +19,7 @@
     </view>
     <!--没有数据的情况-->
     <view class="nocate" wx:else>
-      <image src="../../images/without.png"></image>
+      <image src="/images/icons/暂无数据.svg"></image>
       <text>该分类暂无数据</text>
     </view>
   </scroll-view>

@@ -18,6 +18,7 @@ Page({
    */
   onLoad: function (options) {
     const thisclassdata = homedata[2][options.cid];
+    console.log(options)
     this.data._cid = options.cid;
     const temp = wx.getStorageSync('class_collected')
     this.data._classesconllected = temp

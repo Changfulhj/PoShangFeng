@@ -40,6 +40,7 @@ var homedata = [
       classid:"0",
       headimgsrc:"/images/item01.jpeg",
       title:"数据结构与算法分析",
+      cate:"数据结构",
       teacher:"李老师",
       peoplenum:"333",
       price:"100",
@@ -49,6 +50,7 @@ var homedata = [
       classid:"1",
       headimgsrc:"/images/item01.jpeg",
       title:"深入理解计算机系统",
+      cate:"计算机基础",
       teacher:"吴老师",
       peoplenum:"133",
       price:"300",
@@ -58,6 +60,7 @@ var homedata = [
       classid:"2",
       headimgsrc:"/images/item01.jpeg",
       title:"python数据分析",
+      cate:"计算机基础",
       teacher:"张老师",
       peoplenum:"743",
       price:"500",
@@ -67,6 +70,7 @@ var homedata = [
       classid:"3",
       headimgsrc:"/images/item01.jpeg",
       title:"java web运用",
+      cate:"java",
       teacher:"康老师",
       peoplenum:"733",
       price:"600",
@@ -76,6 +80,7 @@ var homedata = [
       classid:"4",
       headimgsrc:"/images/item01.jpeg",
       title:"unity游戏开发",
+      cate:"unity",
       teacher:"李老师",
       peoplenum:"833",
       price:"200",
@@ -85,10 +90,14 @@ var homedata = [
       classid:"5",
       headimgsrc:"/images/item01.jpeg",
       title:"前端vue框架学习",
+      cate:"vue",
       teacher:"洪老师",
       peoplenum:"833",
       price:"300",
       detailinfo:"Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。"
+    },
+    {
+      
     }
   ] 
 ]

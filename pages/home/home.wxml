@@ -29,7 +29,7 @@
   <view class="recomend-classes">
     <text class="recommend-text">推荐好课</text>
     <view class="recommend-items">
-      <block wx:for="{{recomenddata}}">
+      <block wx:for="{{reconmenddata}}">
         <view class="recommend-item" bind:tap="ongoTodetail" data-class-id="{{item.classid}}">
         <image src="{{item.headimgsrc}}"></image>
         <text class="item-title">{{item.title}}</text>
