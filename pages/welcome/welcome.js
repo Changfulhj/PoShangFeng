@@ -15,10 +15,9 @@ Page({
   },
   onShow: function () {
     // 生命周期函数--监听页面显示
-    wx.hideTabBar({})
   },
   onLoad: function () {
-   
+    
   },
  
  
@@ -36,17 +35,17 @@ Page({
     })
   },
 
-  ontap: function(){
-    wx.switchTab({
-      url: '/pages/home/home',
-    })
-    wx.showToast({
-      title: '登录成功',
-    })
-  },
+  // ontap: function(){
+  //   wx.switchTab({
+  //     url: '/pages/home/home',
+  //   })
+  //   wx.showToast({
+  //     title: '登录成功',
+  //   })
+  // },
  
-  // 登录处理
-  login: function () {
+  //注册处理
+  regin(e){
     var that = this;
     if (this.data.username.length == 0 || this.data.password.length == 0) {
       wx.showToast({
@@ -54,30 +53,68 @@ Page({
         icon: 'none',
         duration: 2000
       })
-    } else {
+    }
+    else {
       wx.request({
-        url: app.globalData.globalReqUrl +'/login/login',
-        method: 'post',
+        url: 'http://192.168.8.110:8080/regin',
+        method:'get',
+        data:{
+          username:this.data.username,
+          password:this.data.password
+        },
+        success(res){
+          if (res.data == "regOK"){
+            console.log('注册成功，快去登录吧!')
+          }
+          else {
+            console.log('账号已被使用')
+          }
+        }
+      })
+    }
+
+
+  },
+
+  // 登录处理
+  login: function (e) {
+    console.log(this.data.username)
+    console.log(this.data.password)
+    var that = this;
+    if (this.data.username.length == 0 || this.data.password.length == 0) {
+      wx.showToast({
+        title: '账号或密码不能为空',
+        icon: 'none',
+        duration: 2000
+      })
+    } 
+    else {
+      wx.request({
+        url: 'http://192.168.8.110:8080/login',
+        method: 'get',
         data: {
           username: that.data.username,
           password: that.data.password
         },
-        header: {
-          'content-type': 'application/x-www-form-urlencoded' 
-        },
         success(res) {
-          if (res.data.code == "OK") {
-            var unitName = res.data.data.User.unitName;
-            var unitId = res.data.data.User.unitId;
-            wx.setStorageSync('unitId', unitId);
-            wx.setStorageSync('unitName', unitName);
+          console.log(res)
+          if (res.data == "logOK") {
+            // var unitName = res.data.data.User.unitName;
+            // var unitId = res.data.data.User.unitId;
+            // wx.setStorageSync('unitId', unitId);
+            // wx.setStorageSync('unitName', unitName);
             wx.switchTab({
-              url: '../overviewData/realTimeData'
+              url: '/pages/home/home'
+            }),
+            wx.showToast({
+              title: '登录成功',
+              icon:'success',
+              duration:'3000'
             })
           } else {
             wx.showToast({
-              title: res.data.message,
-              icon: 'none',
+              title: '登录失败',
+              icon: 'error',
               duration: 2000
             })
           }

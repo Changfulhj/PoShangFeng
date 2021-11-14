@@ -60,7 +60,7 @@ var homedata = [
       classid:"2",
       headimgsrc:"/images/item01.jpeg",
       title:"python数据分析",
-      cate:"计算机基础",
+      cate:"pytho",
       teacher:"张老师",
       peoplenum:"743",
       price:"500",
@@ -70,7 +70,7 @@ var homedata = [
       classid:"3",
       headimgsrc:"/images/item01.jpeg",
       title:"java web运用",
-      cate:"java",
+      cate:"Java",
       teacher:"康老师",
       peoplenum:"733",
       price:"600",
@@ -97,7 +97,14 @@ var homedata = [
       detailinfo:"Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。"
     },
     {
-      
+      classid:"6",
+      headimgsrc:"/images/item01.jpeg",
+      title:"Java基础入门",
+      cate:"Java",
+      teacher:"马老师",
+      peoplenum:"833",
+      price:"300",
+      detailinfo:"Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。"
     }
   ] 
 ]

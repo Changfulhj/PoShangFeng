@@ -51,7 +51,8 @@ Page({
         children:[{
             child_id: 1,
             name: 'Java',
-            image:"/images/icons/icon6/后端开发/java.svg"
+            image:"/images/icons/icon6/后端开发/java.svg",
+            cate_class:'Java'
           },
           {
             child_id:2,
@@ -81,12 +82,14 @@ Page({
           {
             child_id:7,
             name:'Python',
-            image: "/images/icons/icon6/后端开发/Python.svg"
+            image: "/images/icons/icon6/后端开发/Python.svg",
+            cate_class:'python'
           },
           {
             child_id:8,
             name:'Ruby',
-            image: "/images/icons/icon6/后端开发/Ruby.svg"
+            image: "/images/icons/icon6/后端开发/Ruby.svg",
+            cate_class:'ruby'
           },
           {
             child_id:9,
@@ -182,19 +185,97 @@ Page({
       },
       {
         cate_id: 6,
-        cate_name: '云计算'
+        cate_name: '云计算',
+        children:[
+          {
+            chile_id:1,
+            name:'云计算',
+            image:"/images/icons/icon6/云计算/云计算.svg"
+          },
+          {
+            chile_id:2,
+            name:'aws',
+            image:"/images/icons/icon6/云计算/aws.svg"
+          },
+          {
+            chile_id:3,
+            name:'hadoop',
+            image:"/images/icons/icon6/云计算/Hadoop.svg"
+          },
+          {
+            chile_id:4,
+            name:'spark',
+            image:"/images/icons/icon6/云计算/spark.svg"
+          }
+        ]
       },
       {
         cate_id: 7,
-        cate_name: '大数据'
+        cate_name: '大数据',
+        children:[
+          {
+            chile_id:1,
+            name:'spark',
+            image:"/images/icons/icon6/大数据/大数据.svg"
+          }
+        ]
       },
       {
         cate_id: 8,
-        cate_name: '运维&测试'
+        cate_name: '运维&测试',
+        children:[
+          {
+            chile_id:1,
+            name:'Linux',
+            image:"/images/icons/icon6/运维&测试/linux.svg"
+          },
+          {
+            chile_id:2,
+            name:'测试',
+            image:"/images/icons/icon6/运维&测试/服务测试.svg"
+          },
+          {
+            chile_id:3,
+            name:'运维',
+            image:"/images/icons/icon6/运维&测试/运维.svg"
+          },
+          {
+            chile_id:4,
+            name:'自动化运维',
+            image:"/images/icons/icon6/运维&测试/自动化运维.svg"
+          },
+          {
+            chile_id:5,
+            name:'运维工具',
+            image:"/images/icons/icon6/运维&测试/运维工具.svg"
+          },
+        ]
       },
       {
         cate_id: 9,
-        cate_name: '数据库'
+        cate_name: '数据库',
+        children:[
+          {
+            chile_id:1,
+            name:'mysql',
+            image:"/images/icons/icon6/数据库/云数据库 RDS MySQL.svg"
+          },
+          {
+            chile_id:2,
+            name:'MongoDB',
+            image:"/images/icons/icon6/数据库/云数据库MongoDB.svg"
+          },
+          {
+            chile_id:3,
+            name:'oracle',
+            image:"/images/icons/icon6/数据库/oracle.svg"
+          },
+          {
+            chile_id:4,
+            name:'redis',
+            image:"/images/icons/icon6/数据库/Redis 数据库.svg"
+          }
+        ]
       },
       {
         cate_id: 10,
@@ -202,7 +283,14 @@ Page({
       },
       {
         cate_id: 11,
-        cate_name: '游戏'
+        cate_name: '游戏',
+        children:[
+          {
+            chile_id:1,
+            name:'unity',
+            image:"/images/icons/icon6/游戏/unity.svg"
+          }
+        ]
       }
 
     ],

@@ -23,7 +23,11 @@
  
  <!--按钮-->
  <view class="loginBtnView"> 
-  <button class="loginBtn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="ontap">登录</button> 
+  <button class="loginBtn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="login">登录</button> 
  </view> 
+
+ <view class="regBtnView"> 
+  <button class="loginBtn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="regin">注册</button> 
+ </view>
  </view> 
 </view>

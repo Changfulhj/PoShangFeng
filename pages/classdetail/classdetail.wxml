@@ -18,8 +18,10 @@
   <view class="class-xiangqing">
     <text class="class-title">{{thisclassdata.title}}</text>
   </view>
-
   <text class="class-post">{{thisclassdata.detailinfo}}</text>
+
+  <view class=""></view>
+
   <view class="class-purchase">
     <text>购买</text>
   </view>
