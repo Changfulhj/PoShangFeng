@@ -35,7 +35,7 @@ var homedata = [
       NavItemName:"Go"
     }
   ],
-  [//推荐课程数据
+  [//推荐课程
     {
       headimgsrc:"/images/item01.jpeg",
       title:"数据结构与算法分析",

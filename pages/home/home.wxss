@@ -1,5 +1,5 @@
 /* pages/home/home.wxss */
-.home-container{
+.home-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,7 +7,8 @@
   margin-top: 12.76rpx;
   background-color: rgb(234, 244, 253);
 }
-swiper{
+
+swiper {
   width: 714.95rpx;
   height: 329.42rpx;
   border-radius: 36.2rpx;
@@ -15,17 +16,17 @@ swiper{
   box-shadow: 0rpx 2rpx 6rpx 0rpx #a5a5f5;
 }
 
-swiper image{
+swiper image {
   width: 714.95rpx;
   height: 329.42rpx;
   border-radius: 36.2rpx;
 }
 
-.recommend-nav{
+.recommend-nav {
   width: 707.71rpx;
   height: 343.9rpx;
   border: 1px solid #BBBBBB;
-  border-radius: 36.2rpx; 
+  border-radius: 36.2rpx;
   margin-top: 18.1rpx;
   display: flex;
   flex-direction: column;
@@ -34,12 +35,13 @@ swiper image{
   box-shadow: 0rpx 2rpx 6rpx 0rpx #929292;
 }
 
-.recommend-nav image{
+.recommend-nav image {
   width: 63.35rpx;
   height: 63.35rpx;
 }
 
-.nav1, .nav2{
+.nav1,
+.nav2 {
   width: 678.75rpx;
   height: 106.79rpx;
   background-color: #F7F7F7;
@@ -49,35 +51,37 @@ swiper image{
   border-radius: 20rpx;
 }
 
-.nav2{
+.nav2 {
   margin-top: 36.2rpx;
 }
-.nav-item{
+
+.nav-item {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.nav-item text{
+
+.nav-item text {
   font-size: 23.53rpx;
   color: #929292;
 }
 
-.recomend-classes{
+.recomend-classes {
   width: 707.71rpx;
   margin-top: 18.1rpx;
   display: flex;
   flex-direction: column;
 }
 
-.recommend-text{
+.recommend-text {
   font-size: 39.82rpx;
-  font-weight:900;
+  font-weight: 900;
   margin-left: 14.48rpx;
   margin-bottom: 14.48rpx;
 }
 
-.recommend-item{
+.recommend-item {
   width: 334.85rpx;
   height: 351.14rpx;
   background-color: #fff;
@@ -89,39 +93,39 @@ swiper image{
   box-shadow: 0rpx 2rpx 6rpx 0rpx #929292;
 }
 
-.recommend-item image{
+.recommend-item image {
   width: 334.85rpx;
   height: 217.2rpx;
   border-radius: 18.1rpx;
 }
-.item-price{
+
+.item-price {
   margin-left: 90.5rpx;
   font-size: 36.2rpx;
   color: #A82929;
 }
 
-.recommend-items{
+.recommend-items {
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
-.item-title{
+.item-title {
   margin-left: 15rpx;
   font-size: 32rpx;
   font-weight: 600;
 }
 
-.item-teacher{
+.item-teacher {
   margin-left: 15rpx;
   margin-top: 5rpx;
   font-weight: 400;
 }
 
-.item-people{
+.item-people {
   font-size: 24rpx;
   margin-left: 15rpx;
   color: #929292;
 }
-
