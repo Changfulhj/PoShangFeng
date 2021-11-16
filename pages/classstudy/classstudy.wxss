@@ -8,15 +8,6 @@ video{
   width: 100%;
 }
 
-/* .class-menu{
-  width: 700rpx;
-  border-radius: 30rpx;
-  margin-left: 20rpx;
-  margin-top: 20rpx;
-  background-color: rgb(248, 247, 248);
-  box-shadow: 2rpx 0rpx 6rpx 0rpx #bbbbbb;
-} */
-
 .swiper-tab {
   width: 100%;
   border-bottom: 2rpx solid #ccc;

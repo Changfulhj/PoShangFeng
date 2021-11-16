@@ -7,8 +7,7 @@
     "pages/study/study",
     "pages/classdetail/classdetail",
     "pages/classstudy/classstudy",
-    "pages/test/test",
-    "pages/test01/test01"
+    "pages/test/test"
   ],
   "window": {
     "backgroundTextStyle": "light",

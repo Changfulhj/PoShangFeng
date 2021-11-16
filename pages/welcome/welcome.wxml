@@ -1,33 +1,19 @@
 <!--pages/welcome/welcome.wxml-->
-<view class="welcome-container"> 
- 
- <view class="login-icon"> 
- <image class="login-img" src="/images/item01.jpeg"></image> 
- </view> 
- <view class="login-from"> 
- 
- <!--账号-->
- <view class="inputView"> 
-  <image class="nameImage" src="/images/icons/icon5/账号.svg"></image> 
-  <label class="loginLab">账号</label> 
-  <input class="inputText" placeholder="请输入账号" bindinput="usernameInput" /> 
- </view> 
- <view class="line"></view> 
- 
- <!--密码-->
- <view class="inputView"> 
-  <image class="keyImage" src="/images/icons/icon5/密码.svg"></image> 
-  <label class="loginLab">密码</label> 
-  <input class="inputText" password="true" placeholder="请输入密码" bindinput="passwordInput" /> 
- </view> 
- 
- <!--按钮-->
- <view class="loginBtnView"> 
-  <button class="loginBtn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="login">登录</button> 
- </view> 
+<view class="welcome-container">
+  <view class="login-icon">
+    <image class="login-img" src="/images/item01.jpeg"></image>
+  </view>
+  
+  <view class="login-from">
+    <view class="info-inputview">
+      <l-input label="用户名"  placeholder="请输入用户名" bind:lininput="usernameInput" clear />
+      <l-input label="密码" type="password" placeholder="请输入密码" bind:lininput="passwordInput" clear />
+    </view> 
 
- <view class="regBtnView"> 
-  <button class="loginBtn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="regin">注册</button> 
- </view>
- </view> 
+    <view class="buttons">
+      <l-button type="success" size="medium" width="300" bind:lintap="login">登录</l-button>
+      <l-button type="warning" size="medium" width="300" bind:lintap="regin">注册</l-button>
+    </view>
+
+  </view>
 </view>

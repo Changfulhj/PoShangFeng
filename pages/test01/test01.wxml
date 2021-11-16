@@ -1,6 +1,0 @@
-<!--pages/test01/test01.wxml-->
-<view>
-    <button bindtap='bindtest'>数据交互</button>
-    <text>接收到后台的数据：{{tt}}</text>
-</view>
-

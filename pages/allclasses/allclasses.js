@@ -11,32 +11,38 @@ Page({
         children: [{
             child_id: 1,
             name: 'vue.js',
-            image: "/images/icons/icon6/前端开发/Vue.svg"
+            image: "/images/icons/icon6/前端开发/Vue.svg",
+            cate_class:'vue'
           },
           {
             child_id: 2,
             name: 'Typescript',
-            image: "/images/icons/icon6/前端开发/typescript.svg"
+            image: "/images/icons/icon6/前端开发/typescript.svg",
+            cate_class:'Typescript'
           },
           {
             child_id:3,
             name:'Node.js',
-            image: "/images/icons/icon6/前端开发/Node.js.svg"
+            image: "/images/icons/icon6/前端开发/Node.js.svg",
+            cate_class:'node.js'
           },
           {
             child_id:4,
             name:'Html/css',
-            image: "/images/icons/icon6/前端开发/html.svg"
+            image: "/images/icons/icon6/前端开发/html.svg",
+            cate_class:'html/css'
           },
           {
             child_id:5,
             name:'JavaScript',
-            image: "/images/icons/icon6/前端开发/JavaScript.svg"
+            image: "/images/icons/icon6/前端开发/JavaScript.svg",
+            cate_class:'Javascript'
           },
           {
             child_id:6,
             name:'react.svg',
-            image: "/images/icons/icon6/前端开发/react.svg"
+            image: "/images/icons/icon6/前端开发/react.svg",
+            cate_class:'react'
           },
           {
             child_id:7,
@@ -279,10 +285,6 @@ Page({
       },
       {
         cate_id: 10,
-        cate_name: 'UI设计'
-      },
-      {
-        cate_id: 11,
         cate_name: '游戏',
         children:[
           {

@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "l-input":"/miniprogram_npm/lin-ui/input/index",
+    "l-button":"/miniprogram_npm/lin-ui/button/index"
+  }
 }
