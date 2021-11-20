@@ -10,7 +10,6 @@
     <view class="dresses-cir">
       <image wx:if="{{collected}}" bind:tap="onCollect" src="/images/icons/icon4/收藏夹.svg"></image>
       <image wx:else bind:tap="onCollect" src="/images/icons/icon4/未收藏.svg"></image>
-      <image bindtap="onShare" class="share-icon" src="/images/icons/icon4/分享.svg"></image>
     </view>
     <view class="line"></view>
   </view>

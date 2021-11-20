@@ -1,7 +1,7 @@
 <!--pages/classstudy/classstudy.wxml-->
 <view class="classstudy-container">
 
-  <video src="" ></video>
+  <video src="http://192.168.8.110:8080/data/1.mp4" ></video>
 
   <view class="swiper-tab">
     <view class="swiper-tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTab">课程目录</view>

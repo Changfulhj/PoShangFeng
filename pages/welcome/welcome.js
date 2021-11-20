@@ -52,7 +52,7 @@ Page({
     }
     else {
       wx.request({
-        url: 'http://192.168.8.110:8080/regin',
+        url: 'http://192.168.8.110:8080/region',
         method:'get',
         data:{
           username:this.data.username,
@@ -60,7 +60,10 @@ Page({
         },
         success(res){
           if (res.data == "regOK"){
-            console.log('注册成功，快去登录吧!')
+            wx.showToast({
+              title: '注册成功',
+              icon:'success'
+            })
           }
           else {
             console.log('账号已被使用')

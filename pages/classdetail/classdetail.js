@@ -47,13 +47,6 @@ Page({
     })
   },
 
-  onShare(){
-    wx.showActionSheet({
-      itemList: ["分享到QQ", "分享到"],
-    })
-
-
-  },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
