@@ -1,4 +1,6 @@
 // pages/study/study.js
+const URL = "http://192.168.8.110:8080/buied";
+const app = getApp();
 Page({
 
   /**
@@ -19,7 +21,17 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    const username = app.globalData.username
+    wx.request({
+      url: URL,
+      method:'GET',
+      data:{
+        username
+      },
+      success(res){
+        console.log(res)
+      }
+    })
   },
 
   /**

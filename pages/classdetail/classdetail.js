@@ -1,5 +1,8 @@
 // pages/classdetail/classdetail.js
+var app = getApp();
 import {homedata} from '../../data/homedata.js';
+
+var URL = "http://192.168.8.110:8080/cost"
 
 Page({
 
@@ -10,7 +13,8 @@ Page({
     thisclassdata:{},
     collected:false,
     _cid:null,
-    _classesconllected:{}
+    _classesconllected:{},
+    iscost:false
   },
 
   /**
@@ -45,6 +49,40 @@ Page({
     wx.showToast({
       title: this.data.collected?"收藏成功":"取消收藏"
     })
+  },
+
+  purchase(){
+    var that = this;
+    const cid = this.data._cid;
+    const username = app.globalData.username
+    console.log(username)
+    wx.request({
+      url: URL,
+      method:'GET',
+      data:{
+        cid,
+        username
+      },
+      success(res){
+        if (res.data == "costOK"){
+          wx.showToast({
+            title: '购买成功！',
+          })
+          that.setData({
+            iscost:true
+          })
+
+        }
+        else {
+          wx.showToast({
+            title: '购买失败',
+            icon:"error"
+          })
+        }
+      }
+    }
+    )
+
   },
 
 

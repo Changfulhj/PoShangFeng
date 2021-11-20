@@ -5,7 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    currentTab:0
+    currentTab:0,
+    currentVedio:1
   },
 
   clickTab: function(e) {
@@ -24,6 +25,13 @@ Page({
     that.setData({
       currentTab: e.detail.current
     });
+  },
+
+  gotoviedo(e){
+    console.log(e.currentTarget.dataset.viedoId);
+    this.setData({
+      currentVedio:e.currentTarget.dataset.viedoId
+    })
   },
 
 

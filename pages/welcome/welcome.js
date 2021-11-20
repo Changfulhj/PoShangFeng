@@ -19,6 +19,7 @@ Page({
  
   // 获取输入账号 
   usernameInput: function (e) {
+    app.globalData.username = e.detail.value
     this.setData({
       username: e.detail.value
     })
@@ -31,14 +32,6 @@ Page({
     })
   },
 
-  // ontap: function(){
-  //   wx.switchTab({
-  //     url: '/pages/home/home',
-  //   })
-  //   wx.showToast({
-  //     title: '登录成功',
-  //   })
-  // },
  
   //注册处理
   regin(e){
@@ -97,7 +90,7 @@ Page({
         },
         success(res) {
           console.log(res)
-          if (res.data == "logOK") {
+          if (res.data == "AlogOK") {
             // var unitName = res.data.data.User.unitName;
             // var unitId = res.data.data.User.unitId;
             // wx.setStorageSync('unitId', unitId);

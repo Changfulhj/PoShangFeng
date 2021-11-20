@@ -21,8 +21,9 @@
 
   <view class=""></view>
 
-  <view class="class-purchase">
-    <text>购买</text>
+  <view class="class-purchase" bindtap="purchase">
+    <text wx:if="{{iscost == false}}">购买</text>
+    <text wx:else>已购</text>
   </view>
 
 
