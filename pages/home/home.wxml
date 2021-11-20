@@ -1,11 +1,11 @@
 <!--pages/home/home.wxml-->
 <view class="home-container">
-  <swiper>
+  <swiper autoplay="{{true}}" interval="2000">
     <swiper-item>
-      <image src="/images/test02.jpeg"></image>
+      <image src="{{URL}}/images/cycle/计算机网络/mp4.png"></image>
     </swiper-item>
     <swiper-item>
-      <image src="/images/test03.jpeg"></image>
+      <image src="{{URL}}/images/cycle/汇编语言/mp4.png"></image>
     </swiper-item>
   </swiper>
 

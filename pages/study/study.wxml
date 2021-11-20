@@ -1,21 +1,22 @@
 <!--pages/study/study.wxml-->
 <view class="study-container">
   <view class="myclass-item">
-    <text>我的课程</text>
+    <text>我的课程 下拉刷新</text>
   </view>
 
-
-  <view bindtap="gotoViedo" class="myclass-container">
-    <image src="/images/item01.jpeg"></image>
-    <view class="myclass-info">
-      <text class="myclass-title">标题</text>
-      <text class="myclass-teacher">老师</text>
-      <view class="myclass-progress">
-        <text class="myclass-progress-studied">已学习</text>
-        <text class="myclass-progress-num">100%</text>
+  <block wx:for="{{myclasses}}">
+    <view bindtap="gotoViedo" class="myclass-container">
+      <image src="/images/item01.jpeg"></image>
+      <view class="myclass-info">
+        <text class="myclass-title">{{myclassesdata[item].title}}</text>
+        <text class="myclass-teacher">{{myclassesdata[item].teacher}}</text>
+        <view class="myclass-progress">
+          <text class="myclass-progress-studied">已学习</text>
+          <text class="myclass-progress-num">100%</text>
+        </view>
       </view>
-      
     </view>
-  </view>
+  </block>
+
 
 </view>

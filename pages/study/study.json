@@ -1,5 +1,6 @@
 {
   "usingComponents": {
     "l-progress":"/miniprogram_npm/lin-ui/progress"
-  }
+  },
+  "enablePullDownRefresh": true
 }

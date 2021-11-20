@@ -64,6 +64,7 @@ Page({
         username
       },
       success(res){
+        console.log(res)
         if (res.data == "costOK"){
           wx.showToast({
             title: '购买成功！',

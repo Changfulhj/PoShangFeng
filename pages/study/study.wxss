@@ -28,7 +28,7 @@
   align-items: center;
   border: 1.81rpx solid #bbbbbb;
   border-radius: 18.1rpx;
-  background-color: rgb(247, 240, 240);
+  background-color: rgb(235, 235, 235);
   margin-top: 40rpx;
   box-shadow: 0rpx 2rpx 2rpx 0rpx rgb(199, 218, 255);
 }
@@ -44,20 +44,17 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: space-between;
 }
 .myclass-title{
-  font-size: 50rpx;
+  font-size: 40rpx;
   font-weight: 700;
 }
 .myclass-teacher{
-  margin-top: 15rpx;
   color: #bbbbbb;
-  margin-bottom: 10rpx;
   font-size: 35rpx;
 }
-.myclass-progress{
-  margin-top: 20rpx;
-}
+
 
 .myclass-progress-studied{
   font-size: 40rpx;
