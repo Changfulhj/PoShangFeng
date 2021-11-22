@@ -16,9 +16,11 @@ Page({
 
 
 
-  gotoViedo() {
+  gotoViedo(e) {
+    const cid = e.currentTarget.dataset.classId;
+    console.log(cid);
     wx.navigateTo({
-      url: '/pages/classstudy/classstudy',
+      url: '/pages/classstudy/classstudy?cid=' + cid,
     })
 
   },

@@ -8,9 +8,9 @@ Page({
    */
   data: {
     currentTab:0,
-    currentVedio:1,
+    currentVedio:null,
     thisviedo:{},
-    cid:null
+    _cid:null
   },
 
   clickTab: function(e) {
@@ -32,7 +32,7 @@ Page({
   },
 
   gotoviedo(e){
-    console.log(e.currentTarget.dataset.viedoId);
+    console.log(e)
     this.setData({
       currentVedio:e.currentTarget.dataset.viedoId
     })
@@ -43,12 +43,12 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log(homedata);
-    const thisviedo = homedata[2][0];
+    const _cid = options.cid;
+    const thisviedo = homedata[2][_cid];
     this.setData({
-      thisviedo
-    }),
-    console.log(this.data.thisviedo);
+      thisviedo,
+      _cid
+    })
   },
 
   /**

@@ -7,7 +7,7 @@
   <text class="tishi">若您购买参加的课程没有出现，请下拉刷新试试~</text>
 
   <block wx:for="{{myclasses}}">
-    <view data-class-id="" bindtap="gotoViedo" class="myclass-container">
+    <view data-class-id="{{item}}" bindtap="gotoViedo" class="myclass-container">
       <image src="/images/item01.jpeg"></image>
       <view class="myclass-info">
         <text class="myclass-title">{{myclassesdata[item].title}}</text>
