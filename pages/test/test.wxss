@@ -30,11 +30,10 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  border: 1.81rpx solid #bbbbbb;
   border-radius: 18.1rpx;
-  background-color: rgb(235, 235, 235);
-  margin-top: 40rpx;
-  box-shadow: 0rpx 2rpx 2rpx 0rpx rgb(199, 218, 255);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0rpx 2rpx 6rpx 0rpx #929292;
+  margin-top: 30rpx;
 }
 
 .myclass-container image{

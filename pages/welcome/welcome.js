@@ -61,6 +61,11 @@ Page({
           else {
             console.log('账号已被使用')
           }
+        },
+        fail(res){
+          wx.showToast({
+            title: '网络连接失败',
+          })
         }
       })
     }

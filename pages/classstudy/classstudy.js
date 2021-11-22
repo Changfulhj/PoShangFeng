@@ -1,4 +1,6 @@
 // pages/classstudy/classstudy.js
+import {homedata} from '../../data/homedata.js';
+
 Page({
 
   /**
@@ -6,7 +8,9 @@ Page({
    */
   data: {
     currentTab:0,
-    currentVedio:1
+    currentVedio:1,
+    thisviedo:{},
+    cid:null
   },
 
   clickTab: function(e) {
@@ -39,7 +43,12 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    console.log(homedata);
+    const thisviedo = homedata[2][0];
+    this.setData({
+      thisviedo
+    }),
+    console.log(this.data.thisviedo);
   },
 
   /**

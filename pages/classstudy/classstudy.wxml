@@ -1,7 +1,7 @@
 <!--pages/classstudy/classstudy.wxml-->
 <view class="classstudy-container">
 
-  <video src="http://192.168.8.110:8080/data/{{currentVedio}}.mp4" ></video>
+  <video src="http://192.168.8.110:8080/data/{{currentVedio}}.mp4"></video>
 
   <view class="swiper-tab">
     <view class="swiper-tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTab">课程目录</view>
@@ -12,26 +12,19 @@
   <swiper current="{{currentTab}}" duration="300" bindchange="swiperTab">
     <swiper-item class="menu">
       <view class="class-menu">
-        <l-collapse type="accordion">
-          <l-collapse-item title="第一章">
-            <text bindtap="gotoviedo" data-viedo-id="2">mamahaha</text>
-          </l-collapse-item>
-          <l-collapse-item title="第二章">
-            <text bindtap="gotoviedo" data-viedo-id="3">mamahaha</text>
-          </l-collapse-item>
-          <l-collapse-item title="第三章">
-            <text bindtap="gotoviedo" data-viedo-id="4">mamahaha</text>
-          </l-collapse-item>
-        </l-collapse>
+        <block>
+          <l-collapse wx:for="{{thisviedo.menu}}" type="accordion">
+            <l-collapse-item title="{{item.chaptername}}">
+              <view wx:for="{{item.kids}}" bindtap="gotoviedo" data-viedo-id="2">{{item.name}}</view>
+            </l-collapse-item>
+          </l-collapse>
+        </block>
       </view>
-
-
     </swiper-item>
-    
     <swiper-item class="exam">
       <text>这是练习和考试</text>
     </swiper-item>
-    
+
     <swiper-item class="talk">
       <text>这是讨论区</text>
     </swiper-item>

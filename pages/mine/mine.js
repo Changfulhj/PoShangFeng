@@ -15,6 +15,18 @@ Page({
 
   },
 
+  gotoStudy(){
+    wx.switchTab({
+      url: '/pages/study/study',
+      success: (res) => {
+        wx.showToast({
+          title: '课程在这儿呢~',
+          icon:'success',
+        })
+      },
+    })
+  },
+  
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

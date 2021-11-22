@@ -13,14 +13,16 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: 60rpx;
   font-weight: 900;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: rgb(245, 245, 245);
   margin-top: 20rpx;
-  box-shadow: 1rpx 3rpx 6rpx 3rpx rgb(221, 208, 180);
+  box-shadow: 0rpx 3rpx 6rpx 3rpx rgb(221, 208, 180);
 }
+
+
 
 .tishi{
   font-size: 20rpx;
@@ -29,12 +31,16 @@
   margin-top: 10rpx;
 }
 
+.myclass-header{
+  margin-left: 60rpx;
+
+}
+
 .myclass-icon{
   width: 80rpx;
   height: 80rpx;
-  position: absolute;
-  top: 38rpx;
-  left: 100rpx;
+  margin-top: 15rpx;
+  margin-left: 80rpx;
 }
 
 .myclass-container{
@@ -44,11 +50,10 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  border: 1.81rpx solid #bbbbbb;
   border-radius: 18.1rpx;
-  background-color: rgb(235, 235, 235);
-  margin-top: 40rpx;
-  box-shadow: 0rpx 2rpx 2rpx 0rpx rgb(199, 218, 255);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0rpx 2rpx 6rpx 0rpx #929292;
+  margin-top: 30rpx;
 }
 
 .myclass-container image{

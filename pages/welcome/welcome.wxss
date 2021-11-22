@@ -8,23 +8,38 @@ page{
   display: flex; 
   flex-direction: column; 
   align-items: center;
-
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(207, 230, 248);
+  z-index: -2;
  } 
   
-
+ .appTitle{
+  font-weight: 900;
+  font-size: 180rpx;
+  position: absolute;
+  top: 20rpx;
+  left: 20rpx;
+  z-index: 0;
+ }
 
  .login-icon{ 
   flex: none; 
  } 
   
  .login-img{ 
-  width: 750rpx;
+  width: 160rpx;
+  height: 160rpx;
+  box-shadow: 0rpx 2rpx 6rpx 3rpx rgb(180, 180, 180);
+  border: 1rpx solid rgb(128, 128, 128);
+  border-radius: 50%;
+  position: absolute;
+  top: 60rpx;
+  right: 100rpx;
+  z-index:0;
  } 
 
  .info-inputview{
   margin-left: 30rpx;
-  margin-top: 50rpx;
+  margin-top: 500rpx;
  }
 
 
@@ -40,4 +55,11 @@ page{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+ }
+
+ .tishi{
+  margin-left: 430rpx;
+  margin-top: 30rpx;
+  color: #b1b1b1;
+  font-size: 25rpx;
  }

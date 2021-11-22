@@ -1,7 +1,11 @@
 <!--pages/welcome/welcome.wxml-->
 <view class="welcome-container">
+  <view>
+    <text class="appTitle">HELL WORLD</text>
+  </view>
+
   <view class="login-icon">
-    <image class="login-img" src="/images/item01.jpeg"></image>
+    <image class="login-img" src="/images/pexels-lisett-kruusimäe-10116731.png"></image>
   </view>
   
   <view class="login-from">
@@ -13,6 +17,10 @@
     <view class="buttons">
       <l-button type="success" size="medium" width="300" bind:lintap="login">登录</l-button>
       <l-button type="warning" size="medium" width="300" bind:lintap="regin">注册</l-button>
+    </view>
+
+    <view class="tishi">
+      <text>还没有注册的用户请先注册哦~</text>
     </view>
 
   </view>
