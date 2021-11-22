@@ -1,8 +1,10 @@
 <!--pages/study/study.wxml-->
 <view class="study-container">
   <view class="myclass-item">
-    <text>我的课程 下拉刷新</text>
+    <image class="myclass-icon" src="/images/icons/icon7/课程.png"></image>
+    <text>我的课程</text>
   </view>
+  <text class="tishi">若您购买参加的课程没有出现，请下拉刷新试试~</text>
 
   <block wx:for="{{myclasses}}">
     <view bindtap="gotoViedo" class="myclass-container">

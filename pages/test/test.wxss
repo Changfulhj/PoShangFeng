@@ -16,8 +16,11 @@
   align-items: center;
   justify-content: center;
   font-size: 60rpx;
-  color: rgb(255, 247, 238);
+  font-weight: 900;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(255, 248, 235);
   margin-top: 20rpx;
+  box-shadow: 1rpx 3rpx 6rpx 3rpx rgb(221, 208, 180);
 }
 
 .myclass-container{
