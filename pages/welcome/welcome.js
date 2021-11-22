@@ -96,10 +96,6 @@ Page({
         success(res) {
           console.log(res)
           if (res.data == "AlogOK") {
-            // var unitName = res.data.data.User.unitName;
-            // var unitId = res.data.data.User.unitId;
-            // wx.setStorageSync('unitId', unitId);
-            // wx.setStorageSync('unitName', unitName);
             wx.switchTab({
               url: '/pages/home/home'
             }),
