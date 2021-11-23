@@ -25,7 +25,10 @@
 
 .uername{
   margin-left: 36.2rpx;
-  font-size: 60rpx;
+  font-size: 90rpx;
+  font-weight: 900;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #5b5d6d;
 }
 
 .options-container{

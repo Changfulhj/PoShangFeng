@@ -1,0 +1,4 @@
+<!--pages/test03/test03.wxml-->
+<view>
+  <tree treeList="{{treeList}}" bind:treeTap="treeTap"></tree>
+</view>

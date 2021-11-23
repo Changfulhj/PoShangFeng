@@ -2,7 +2,7 @@
 <view class="mine-container">
   <view class="userinfo">
     <image src="/images/icons/我的.png"></image>
-    <text class="uername">七国守护者</text>
+    <text class="uername">用户：{{username}}</text>
   </view>
 
   <view class="options-container">
@@ -14,6 +14,6 @@
     </view>
   </view>
   <view class="exitbutton">
-    <l-button size="large" type="error">退出账号</l-button>
+    <l-button bindtap="gotoWelcome" size="large" type="error">退出账号</l-button>
   </view>
 </view>

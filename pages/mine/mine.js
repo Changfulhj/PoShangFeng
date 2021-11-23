@@ -1,18 +1,24 @@
 // pages/mine/mine.js
+const app = getApp();
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    username:""
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    const username = app.globalData.username;
+    console.log(username);
+    this.setData({
+      username
+    })
   },
 
   gotoStudy(){
@@ -27,6 +33,18 @@ Page({
     })
   },
   
+  gotoWelcome(){
+    wx.redirectTo({
+      url: '/pages/welcome/welcome',
+      success(res){
+        wx.showToast({
+          title: '退出成功',
+          icon:"success"
+        })
+      }
+    })
+  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

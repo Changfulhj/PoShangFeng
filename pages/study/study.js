@@ -103,6 +103,7 @@ Page({
         username
       },
       success(res) {
+        console.log(res);
         let temp = res.data;
         let myclasses = [];
         temp = Array.from(temp);
