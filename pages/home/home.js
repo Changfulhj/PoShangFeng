@@ -29,6 +29,21 @@ Page({
     })
   },
 
+  jumpTos(){
+    wx.switchTab({
+      url: '/pages/allclasses/allclasses',
+    })
+  },
+
+  jumpTod(e){
+    console.log(e);
+    wx.navigateTo({
+      url: e.currentTarget.dataset.jumpsrc
+    })
+
+
+  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

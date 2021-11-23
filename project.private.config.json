@@ -71,6 +71,18 @@
           "pathName": "pages/test03/test03",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/test06/test06",
+          "pathName": "pages/test06/test06",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mycollected/mycollected",
+          "pathName": "pages/mycollected/mycollected",
+          "query": "",
+          "scene": null
         }
       ]
     }

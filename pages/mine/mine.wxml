@@ -7,10 +7,8 @@
 
   <view class="options-container">
     <view class="options">
-      <l-list title="我的讨论" desc="查看我的讨论" image="/images/icons/icon3/讨论区.png"/>
       <l-list bindtap="gotoStudy" title="我的课程" desc="查看我的课程" image="/images/icons/icon3/课程.png"/>
-      <l-list title="我的证书" desc="查看我的证书" image="/images/icons/icon3/证书.png"/>
-      <l-list title="我的收藏" desc="查看我的收藏" image="/images/icons/icon3/_收藏.png"/>
+      <l-list bindtap="gotoCollected" title="我的收藏" desc="查看我的收藏" image="/images/icons/icon3/_收藏.png"/>
     </view>
   </view>
   <view class="exitbutton">

@@ -1,5 +1,7 @@
 /* pages/mine/mine.wxss */
 .mine-container{
+  height: 100%;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,11 +11,12 @@
   width: 691.42rpx;
   height: 191.86rpx;
   border-radius: 36.2rpx;
-  border: 1.81rpx solid #BBBBBB;
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-top: 18.1rpx;
+  box-shadow: 0rpx 2rpx 6rpx 0rpx #BBBBBB;
+  border: 1rpx solid #BBBBBB;
 }
 .userinfo image{
   width: 135.75rpx;
@@ -33,9 +36,10 @@
 
 .options-container{
   width: 691.42rpx;
-  height: 389.15rpx;
-  border: 1.81rpx solid #BBBBBB;
-  border-radius: 18.1rpx;
+  height: 200.15rpx;
+  box-shadow: 0rpx 2rpx 6rpx 0rpx #BBBBBB;
+  border: 1rpx solid #BBBBBB;
+  border-radius: 30rpx;
   margin-top: 30.77rpx;
 }
 

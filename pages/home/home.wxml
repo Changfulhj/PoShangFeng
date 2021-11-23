@@ -13,7 +13,7 @@
 
     <view class="nav1">
       <block wx:for="{{nav1data}}">
-        <view class="nav-item">
+        <view bindtap="jumpTos" class="nav-item">
           <image src="{{item.NavIcon}}"></image>
           <text>{{item.NavItemName}}</text>
         </view>
@@ -22,7 +22,7 @@
 
     <view class="nav2">
       <block wx:for="{{nav2data}}">
-        <view class="nav-item">
+        <view data-jumpsrc="{{item.jumpsrc}}" bindtap="jumpTod" class="nav-item">
           <image src="{{item.NavIcon}}"></image>
           <text>{{item.NavItemName}}</text>
         </view>

@@ -16,7 +16,15 @@ video{
   line-height: 88rpx;
   display: flex;
   flex-flow: row;
-  justify-content: space-between;
+  justify-content: center;
+  font-size: 45rpx;
+  font-weight: 900;
+  background-color: rgb(210, 238, 245);
+  box-shadow: 2rpx 1rpx 3rpx 2rpx rgb(236, 202, 202);
+}
+
+.menu-item{
+  margin-left: 30rpx;
 }
 
 .swiper-tab-item {

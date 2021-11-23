@@ -6,7 +6,7 @@
 
   <block wx:for="{{cateClasses}}">
     <view wx:if="{{item.cate == thiscc}}" data-class-id="{{item.classid}}" bindtap="goTodetail" class="myclass-container">
-      <image src="/images/item01.jpeg"></image>
+      <image src="{{item.headimgsrc}}"></image>
       <view class="myclass-info">
         <text class="myclass-title">{{item.title}}</text>
         <text class="myclass-teacher">{{item.teacher}}</text>

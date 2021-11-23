@@ -2,10 +2,9 @@
 var app = getApp();
 import {homedata} from '../../data/homedata.js';
 
-var URL = "http://192.168.8.110:8080/cost"
+var URL = "http://192.168.8.110:8080"
 
 Page({
-
   /**
    * 页面的初始数据
    */
@@ -22,7 +21,6 @@ Page({
    */
   onLoad: function (options) {
     const thisclassdata = homedata[2][options.cid];
-    console.log(options)
     this.data._cid = options.cid;
     const temp = wx.getStorageSync('class_collected')
     this.data._classesconllected = temp
@@ -31,6 +29,7 @@ Page({
     if (thiscollected === undefined) {
       thiscollected = false
     }
+
     this.setData({
       thisclassdata,
       collected:thiscollected  //初始化的时候给收藏bool值
@@ -39,7 +38,26 @@ Page({
 
 
   onCollect:function(){
-    const temp = this.data._classesconllected
+    const temp = this.data._classesconllected;
+    const cid = this.data._cid;
+    const username = app.globalData.username;
+    wx.request({
+      url: URL + "/collected",
+      data:{
+        username,
+        cid
+      },
+      method:"GET",
+      success(res){
+        if (res.data == "collectedOK"){
+          console.log(收藏好了);
+        }
+        else if (res.data == "uncollectedOK"){
+          console.log(取消好了);
+        }
+      }
+    })
+
     temp[this.data._cid] = !this.data.collected
     this.setData({
       collected:this.data._classesconllected[this.data._cid]
@@ -57,7 +75,7 @@ Page({
     const username = app.globalData.username
     console.log(username)
     wx.request({
-      url: URL,
+      url: URL + "/cost",
       method:'GET',
       data:{
         cid,

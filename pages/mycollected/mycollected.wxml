@@ -1,12 +1,12 @@
-<!--pages/study/study.wxml-->
+<!--pages/mycollected/mycollected.wxml-->
 <view class="study-container">
   <view class="myclass-item">
-    <image class="myclass-icon" src="/images/icons/icon7/课程.png"></image>
-    <text class="myclass-header">我的课程</text>
+    <image class="myclass-icon" src="/images/icons/icon8/收藏.png"></image>
+    <text class="myclass-header">我的收藏</text>
   </view>
-  <text class="tishi">若您购买参加的课程没有出现，请下拉刷新试试~</text>
+  <text class="tishi">若您收藏的课程没有出现，请下拉刷新试试~</text>
 
-  <block wx:for="{{myclasses}}">
+  <block wx:for="{{mycollected}}">
     <view data-class-id="{{item}}" bindtap="gotoViedo" class="myclass-container">
       <image src="{{myclassesdata[item].headimgsrc}}"></image>
       <view class="myclass-info">

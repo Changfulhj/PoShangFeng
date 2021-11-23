@@ -4,9 +4,7 @@
     <text class="appTitle">HELL WORLD</text>
   </view>
 
-  <view class="login-icon">
-    <image class="login-img" src="192.168.8.110:8080/images/pexels-lisett-kruusimäe-10116731.png"></image>
-  </view>
+  <view class="login-icon"></view>
   
   <view class="login-from">
     <view class="info-inputview">

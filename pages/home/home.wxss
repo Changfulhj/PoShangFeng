@@ -5,7 +5,6 @@
   justify-content: center;
   align-items: center;
   margin-top: 12.76rpx;
-  background-color: rgb(234, 244, 253);
 }
 swiper{
   width: 714.95rpx;

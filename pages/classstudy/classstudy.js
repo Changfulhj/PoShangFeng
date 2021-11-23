@@ -1,6 +1,6 @@
 // pages/classstudy/classstudy.js
 import {homedata} from '../../data/homedata.js';
-
+const URL = "192.168.8.11:8080"
 Page({
 
   /**
@@ -9,8 +9,9 @@ Page({
   data: {
     currentTab:0,
     currentVedio:null,
-    thisviedo:{},
-    _cid:null
+    thisclass:{},
+    _cid:null,
+    URL
   },
 
   clickTab: function(e) {
@@ -44,10 +45,11 @@ Page({
    */
   onLoad: function (options) {
     const _cid = options.cid;
-    const thisviedo = homedata[2][_cid];
+    const thisclass = homedata[2][_cid];
     this.setData({
-      thisviedo,
-      _cid
+      thisclass,
+      _cid,
+      URL
     })
   },
 

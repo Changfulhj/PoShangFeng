@@ -8,8 +8,8 @@
     "pages/classdetail/classdetail",
     "pages/classstudy/classstudy",
     "pages/test/test",
-    "commpents/tree/tree",
-    "pages/test03/test03"
+    "pages/test06/test06",
+    "pages/mycollected/mycollected"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -8,7 +8,6 @@ page{
   display: flex; 
   flex-direction: column; 
   align-items: center;
-  background-color: rgb(207, 230, 248);
   z-index: -2;
  } 
   
@@ -21,11 +20,8 @@ page{
   z-index: 0;
  }
 
- .login-icon{ 
-  flex: none; 
- } 
   
- .login-img{ 
+ .login-icon{ 
   width: 160rpx;
   height: 160rpx;
   box-shadow: 0rpx 2rpx 6rpx 3rpx rgb(180, 180, 180);
@@ -35,6 +31,7 @@ page{
   top: 60rpx;
   right: 100rpx;
   z-index:0;
+  background-color: #f56565;
  } 
 
  .info-inputview{
