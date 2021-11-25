@@ -83,6 +83,12 @@
           "pathName": "pages/mycollected/mycollected",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/searchconlcu/searchconlcu",
+          "pathName": "pages/searchconlcu/searchconlcu",
+          "query": "",
+          "scene": null
         }
       ]
     }

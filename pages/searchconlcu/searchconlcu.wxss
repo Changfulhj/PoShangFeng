@@ -1,0 +1,73 @@
+/* pages/searchconlcu/searchconlcu.wxss */
+.search-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.myclass-item{
+  width: 691.42rpx;
+  height: 100rpx;
+  background-color: rgb(245, 58, 95);
+  border-radius: 18.1rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 60rpx;
+  font-weight: 900;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(255, 248, 235);
+  margin-top: 20rpx;
+  box-shadow: 1rpx 3rpx 6rpx 3rpx rgb(221, 208, 180);
+}
+
+
+.myclass-container{
+  width: 691.42rpx;
+  height: 270rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 18.1rpx;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0rpx 2rpx 6rpx 0rpx #929292;
+  margin-top: 30rpx;
+}
+
+.myclass-container image{
+  width: 334.85rpx;
+  height: 217.2rpx;
+  border-radius: 18.1rpx;
+}
+.myclass-info{
+  width: 280rpx;
+  height: 217.2rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.myclass-title{
+  font-size: 40rpx;
+  font-weight: 700;
+}
+.myclass-teacher{
+  color: #bbbbbb;
+  font-size: 35rpx;
+}
+
+
+.myclass-progress-studied{
+  font-size: 40rpx;
+  font-weight: 700;
+  color: cornflowerblue;
+}
+.myclass-progress-num{
+  margin-left: 10rpx;
+  font-size: 50rpx;
+  font-weight: 700;
+  color: rgb(248, 116, 112);
+}

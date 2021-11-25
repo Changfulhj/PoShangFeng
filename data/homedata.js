@@ -637,7 +637,2491 @@ var homedata = [
       },
 
       ]
-    }
+    },
+    {
+      classid: "7",
+      headimgsrc: URL +  "/images/img/java/mp4.png",
+      title: "组件库入门",
+      cate: "vue",
+      teacher: "马老师",
+      peoplenum: "833",
+      price: "300",
+      detailinfo: "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。",
+      menu: [{ //
+        chaptername: "数组",
+        kids: [{
+          name: "位运算",
+        },
+        {
+          name: "巴拉巴拉",
+        }
+        ]
+      },
+      { //
+        chaptername: "栈",
+        kids: [{
+          name: "过程实现",
+        },
+        {
+          name: "很多很多很多",
+        }
+        ]
+      },
+      { //
+        chaptername: "队列",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "链表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "树",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "散列表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "堆",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "图",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+
+      ]
+    },
+    {
+      classid: "8",
+      headimgsrc: URL +  "/images/img/java/mp4.png",
+      title: "vue3.0实现客户交互逻辑",
+      cate: "vue",
+      teacher: "胡老师",
+      peoplenum: "833",
+      price: "300",
+      detailinfo: "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。",
+      menu: [{ //
+        chaptername: "数组",
+        kids: [{
+          name: "位运算",
+        },
+        {
+          name: "巴拉巴拉",
+        }
+        ]
+      },
+      { //
+        chaptername: "栈",
+        kids: [{
+          name: "过程实现",
+        },
+        {
+          name: "很多很多很多",
+        }
+        ]
+      },
+      { //
+        chaptername: "队列",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "链表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "树",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "散列表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "堆",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "图",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+
+      ]
+    },
+    {
+      classid: "9",
+      headimgsrc: URL +  "/images/img/java/mp4.png",
+      title: "vue进阶学习",
+      cate: "vue",
+      teacher: "胡老师",
+      peoplenum: "833",
+      price: "300",
+      detailinfo: "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。",
+      menu: [{ //
+        chaptername: "数组",
+        kids: [{
+          name: "位运算",
+        },
+        {
+          name: "巴拉巴拉",
+        }
+        ]
+      },
+      { //
+        chaptername: "栈",
+        kids: [{
+          name: "过程实现",
+        },
+        {
+          name: "很多很多很多",
+        }
+        ]
+      },
+      { //
+        chaptername: "队列",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "链表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "树",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "散列表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "堆",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "图",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+
+      ]
+    },
+    {
+      classid: "9",
+      headimgsrc: URL +  "/images/img/java/mp4.png",
+      title: "Typescript基础入门",
+      cate: "Typescript",
+      teacher: "胡老师",
+      peoplenum: "833",
+      price: "300",
+      detailinfo: "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。",
+      menu: [{ //
+        chaptername: "数组",
+        kids: [{
+          name: "位运算",
+        },
+        {
+          name: "巴拉巴拉",
+        }
+        ]
+      },
+      { //
+        chaptername: "栈",
+        kids: [{
+          name: "过程实现",
+        },
+        {
+          name: "很多很多很多",
+        }
+        ]
+      },
+      { //
+        chaptername: "队列",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "链表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "树",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "散列表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "堆",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "图",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+
+      ]
+    },
+    {
+      classid: "10",
+      headimgsrc: URL +  "/images/img/java/mp4.png",
+      title: "Typescript进阶提高",
+      cate: "Typescript",
+      teacher: "胡老师",
+      peoplenum: "833",
+      price: "300",
+      detailinfo: "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。",
+      menu: [{ //
+        chaptername: "数组",
+        kids: [{
+          name: "位运算",
+        },
+        {
+          name: "巴拉巴拉",
+        }
+        ]
+      },
+      { //
+        chaptername: "栈",
+        kids: [{
+          name: "过程实现",
+        },
+        {
+          name: "很多很多很多",
+        }
+        ]
+      },
+      { //
+        chaptername: "队列",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "链表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "树",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "散列表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "堆",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "图",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+
+      ]
+    },
+    {
+      classid: "11",
+      headimgsrc: URL +  "/images/img/java/mp4.png",
+      title: "Typescript炉火纯青",
+      cate: "Typescript",
+      teacher: "胡老师",
+      peoplenum: "833",
+      price: "300",
+      detailinfo: "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。",
+      menu: [{ //
+        chaptername: "数组",
+        kids: [{
+          name: "位运算",
+        },
+        {
+          name: "巴拉巴拉",
+        }
+        ]
+      },
+      { //
+        chaptername: "栈",
+        kids: [{
+          name: "过程实现",
+        },
+        {
+          name: "很多很多很多",
+        }
+        ]
+      },
+      { //
+        chaptername: "队列",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "链表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "树",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "散列表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "堆",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "图",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+
+      ]
+    },
+    {
+      classid: "12",
+      headimgsrc: URL +  "/images/img/java/mp4.png",
+      title: "Typescript出神入化",
+      cate: "Typescript",
+      teacher: "胡老师",
+      peoplenum: "833",
+      price: "300",
+      detailinfo: "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。",
+      menu: [{ //
+        chaptername: "数组",
+        kids: [{
+          name: "位运算",
+        },
+        {
+          name: "巴拉巴拉",
+        }
+        ]
+      },
+      { //
+        chaptername: "栈",
+        kids: [{
+          name: "过程实现",
+        },
+        {
+          name: "很多很多很多",
+        }
+        ]
+      },
+      { //
+        chaptername: "队列",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "链表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "树",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "散列表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "堆",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "图",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+
+      ]
+    },
+    {
+      classid: "12",
+      headimgsrc: URL +  "/images/img/java/mp4.png",
+      title: "Node.js基础入门",
+      cate: "node.js",
+      teacher: "胡老师",
+      peoplenum: "833",
+      price: "300",
+      detailinfo: "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。",
+      menu: [{ //
+        chaptername: "数组",
+        kids: [{
+          name: "位运算",
+        },
+        {
+          name: "巴拉巴拉",
+        }
+        ]
+      },
+      { //
+        chaptername: "栈",
+        kids: [{
+          name: "过程实现",
+        },
+        {
+          name: "很多很多很多",
+        }
+        ]
+      },
+      { //
+        chaptername: "队列",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "链表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "树",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "散列表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "堆",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "图",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+
+      ]
+    },
+    {
+      classid: "13",
+      headimgsrc: URL +  "/images/img/java/mp4.png",
+      title: "Node.js进阶提高",
+      cate: "node.js",
+      teacher: "胡老师",
+      peoplenum: "833",
+      price: "300",
+      detailinfo: "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。",
+      menu: [{ //
+        chaptername: "数组",
+        kids: [{
+          name: "位运算",
+        },
+        {
+          name: "巴拉巴拉",
+        }
+        ]
+      },
+      { //
+        chaptername: "栈",
+        kids: [{
+          name: "过程实现",
+        },
+        {
+          name: "很多很多很多",
+        }
+        ]
+      },
+      { //
+        chaptername: "队列",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "链表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "树",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "散列表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "堆",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "图",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+
+      ]
+    },
+    {
+      classid: "14",
+      headimgsrc: URL +  "/images/img/java/mp4.png",
+      title: "前端小课堂",
+      cate: "html/css",
+      teacher: "胡老师",
+      peoplenum: "833",
+      price: "300",
+      detailinfo: "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。",
+      menu: [{ //
+        chaptername: "数组",
+        kids: [{
+          name: "位运算",
+        },
+        {
+          name: "巴拉巴拉",
+        }
+        ]
+      },
+      { //
+        chaptername: "栈",
+        kids: [{
+          name: "过程实现",
+        },
+        {
+          name: "很多很多很多",
+        }
+        ]
+      },
+      { //
+        chaptername: "队列",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "链表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "树",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "散列表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "堆",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "图",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+
+      ]
+    },
+    {
+      classid: "14",
+      headimgsrc: URL +  "/images/img/java/mp4.png",
+      title: "H5精讲",
+      cate: "html/css",
+      teacher: "胡老师",
+      peoplenum: "833",
+      price: "300",
+      detailinfo: "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。",
+      menu: [{ //
+        chaptername: "数组",
+        kids: [{
+          name: "位运算",
+        },
+        {
+          name: "巴拉巴拉",
+        }
+        ]
+      },
+      { //
+        chaptername: "栈",
+        kids: [{
+          name: "过程实现",
+        },
+        {
+          name: "很多很多很多",
+        }
+        ]
+      },
+      { //
+        chaptername: "队列",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "链表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "树",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "散列表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "堆",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "图",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+
+      ]
+    },
+    {
+      classid: "15",
+      headimgsrc: URL +  "/images/img/java/mp4.png",
+      title: "CSS进阶拔高",
+      cate: "html/css",
+      teacher: "胡老师",
+      peoplenum: "833",
+      price: "300",
+      detailinfo: "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。",
+      menu: [{ //
+        chaptername: "数组",
+        kids: [{
+          name: "位运算",
+        },
+        {
+          name: "巴拉巴拉",
+        }
+        ]
+      },
+      { //
+        chaptername: "栈",
+        kids: [{
+          name: "过程实现",
+        },
+        {
+          name: "很多很多很多",
+        }
+        ]
+      },
+      { //
+        chaptername: "队列",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "链表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "树",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "散列表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "堆",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "图",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+
+      ]
+    },
+    {
+      classid: "16",
+      headimgsrc: URL +  "/images/img/java/mp4.png",
+      title: "Javascript百炼成仙",
+      cate: "Javascript",
+      teacher: "胡老师",
+      peoplenum: "833",
+      price: "300",
+      detailinfo: "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。",
+      menu: [{ //
+        chaptername: "数组",
+        kids: [{
+          name: "位运算",
+        },
+        {
+          name: "巴拉巴拉",
+        }
+        ]
+      },
+      { //
+        chaptername: "栈",
+        kids: [{
+          name: "过程实现",
+        },
+        {
+          name: "很多很多很多",
+        }
+        ]
+      },
+      { //
+        chaptername: "队列",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "链表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "树",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "散列表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "堆",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "图",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+
+      ]
+    },
+    {
+      classid: "17",
+      headimgsrc: URL +  "/images/img/java/mp4.png",
+      title: "Javascript基础入门",
+      cate: "Javascript",
+      teacher: "胡老师",
+      peoplenum: "833",
+      price: "300",
+      detailinfo: "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。",
+      menu: [{ //
+        chaptername: "数组",
+        kids: [{
+          name: "位运算",
+        },
+        {
+          name: "巴拉巴拉",
+        }
+        ]
+      },
+      { //
+        chaptername: "栈",
+        kids: [{
+          name: "过程实现",
+        },
+        {
+          name: "很多很多很多",
+        }
+        ]
+      },
+      { //
+        chaptername: "队列",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "链表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "树",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "散列表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "堆",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "图",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+
+      ]
+    },
+    {
+      classid: "18",
+      headimgsrc: URL +  "/images/img/java/mp4.png",
+      title: "Javascript进阶拔高",
+      cate: "Javascript",
+      teacher: "胡老师",
+      peoplenum: "833",
+      price: "300",
+      detailinfo: "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。",
+      menu: [{ //
+        chaptername: "数组",
+        kids: [{
+          name: "位运算",
+        },
+        {
+          name: "巴拉巴拉",
+        }
+        ]
+      },
+      { //
+        chaptername: "栈",
+        kids: [{
+          name: "过程实现",
+        },
+        {
+          name: "很多很多很多",
+        }
+        ]
+      },
+      { //
+        chaptername: "队列",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "链表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "树",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "散列表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "堆",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "图",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+
+      ]
+    },
+    {
+      classid: "18",
+      headimgsrc: URL +  "/images/img/java/mp4.png",
+      title: "react框架入门学习",
+      cate: "react",
+      teacher: "胡老师",
+      peoplenum: "833",
+      price: "300",
+      detailinfo: "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。",
+      menu: [{ //
+        chaptername: "数组",
+        kids: [{
+          name: "位运算",
+        },
+        {
+          name: "巴拉巴拉",
+        }
+        ]
+      },
+      { //
+        chaptername: "栈",
+        kids: [{
+          name: "过程实现",
+        },
+        {
+          name: "很多很多很多",
+        }
+        ]
+      },
+      { //
+        chaptername: "队列",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "链表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "树",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "散列表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "堆",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "图",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+
+      ]
+    },
+    {
+      classid: "19",
+      headimgsrc: URL +  "/images/img/java/mp4.png",
+      title: "react进阶提高",
+      cate: "react",
+      teacher: "胡老师",
+      peoplenum: "833",
+      price: "300",
+      detailinfo: "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。",
+      menu: [{ //
+        chaptername: "数组",
+        kids: [{
+          name: "位运算",
+        },
+        {
+          name: "巴拉巴拉",
+        }
+        ]
+      },
+      { //
+        chaptername: "栈",
+        kids: [{
+          name: "过程实现",
+        },
+        {
+          name: "很多很多很多",
+        }
+        ]
+      },
+      { //
+        chaptername: "队列",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "链表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "树",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "散列表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "堆",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "图",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+
+      ]
+    },
+    {
+      classid: "20",
+      headimgsrc: URL +  "/images/img/java/mp4.png",
+      title: "微信小程序快速入门",
+      cate: "小程序",
+      teacher: "胡老师",
+      peoplenum: "833",
+      price: "300",
+      detailinfo: "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。",
+      menu: [{ //
+        chaptername: "数组",
+        kids: [{
+          name: "位运算",
+        },
+        {
+          name: "巴拉巴拉",
+        }
+        ]
+      },
+      { //
+        chaptername: "栈",
+        kids: [{
+          name: "过程实现",
+        },
+        {
+          name: "很多很多很多",
+        }
+        ]
+      },
+      { //
+        chaptername: "队列",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "链表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "树",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "散列表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "堆",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "图",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+
+      ]
+    },
+    {
+      classid: "21",
+      headimgsrc: URL +  "/images/img/java/mp4.png",
+      title: "21天精通微信小程序",
+      cate: "小程序",
+      teacher: "胡老师",
+      peoplenum: "833",
+      price: "300",
+      detailinfo: "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。",
+      menu: [{ //
+        chaptername: "数组",
+        kids: [{
+          name: "位运算",
+        },
+        {
+          name: "巴拉巴拉",
+        }
+        ]
+      },
+      { //
+        chaptername: "栈",
+        kids: [{
+          name: "过程实现",
+        },
+        {
+          name: "很多很多很多",
+        }
+        ]
+      },
+      { //
+        chaptername: "队列",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "链表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "树",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "散列表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "堆",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "图",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+
+      ]
+    },
+    {
+      classid: "22",
+      headimgsrc: URL +  "/images/img/java/mp4.png",
+      title: "java百转成神",
+      cate: "Java",
+      teacher: "胡老师",
+      peoplenum: "833",
+      price: "300",
+      detailinfo: "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。",
+      menu: [{ //
+        chaptername: "数组",
+        kids: [{
+          name: "位运算",
+        },
+        {
+          name: "巴拉巴拉",
+        }
+        ]
+      },
+      { //
+        chaptername: "栈",
+        kids: [{
+          name: "过程实现",
+        },
+        {
+          name: "很多很多很多",
+        }
+        ]
+      },
+      { //
+        chaptername: "队列",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "链表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "树",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "散列表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "堆",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "图",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+
+      ]
+    },
+    {
+      classid: "23",
+      headimgsrc: URL +  "/images/img/java/mp4.png",
+      title: "SpringBoot基础入门",
+      cate: "springboot",
+      teacher: "胡老师",
+      peoplenum: "833",
+      price: "300",
+      detailinfo: "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。",
+      menu: [{ //
+        chaptername: "数组",
+        kids: [{
+          name: "位运算",
+        },
+        {
+          name: "巴拉巴拉",
+        }
+        ]
+      },
+      { //
+        chaptername: "栈",
+        kids: [{
+          name: "过程实现",
+        },
+        {
+          name: "很多很多很多",
+        }
+        ]
+      },
+      { //
+        chaptername: "队列",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "链表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "树",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "散列表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "堆",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "图",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+
+      ]
+    },
+    {
+      classid: "24",
+      headimgsrc: URL +  "/images/img/java/mp4.png",
+      title: "SpringBoot进阶拔高",
+      cate: "springboot",
+      teacher: "胡老师",
+      peoplenum: "833",
+      price: "300",
+      detailinfo: "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。",
+      menu: [{ //
+        chaptername: "数组",
+        kids: [{
+          name: "位运算",
+        },
+        {
+          name: "巴拉巴拉",
+        }
+        ]
+      },
+      { //
+        chaptername: "栈",
+        kids: [{
+          name: "过程实现",
+        },
+        {
+          name: "很多很多很多",
+        }
+        ]
+      },
+      { //
+        chaptername: "队列",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "链表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "树",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "散列表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "堆",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "图",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+
+      ]
+    },
+    {
+      classid: "25",
+      headimgsrc: URL +  "/images/img/java/mp4.png",
+      title: "C语言与计算机底层",
+      cate: "C/C++",
+      teacher: "胡老师",
+      peoplenum: "833",
+      price: "300",
+      detailinfo: "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。",
+      menu: [{ //
+        chaptername: "数组",
+        kids: [{
+          name: "位运算",
+        },
+        {
+          name: "巴拉巴拉",
+        }
+        ]
+      },
+      { //
+        chaptername: "栈",
+        kids: [{
+          name: "过程实现",
+        },
+        {
+          name: "很多很多很多",
+        }
+        ]
+      },
+      { //
+        chaptername: "队列",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "链表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "树",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "散列表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "堆",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "图",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+
+      ]
+    },
+    {
+      classid: "26",
+      headimgsrc: URL +  "/images/img/java/mp4.png",
+      title: "C++基础入门",
+      cate: "C/C++",
+      teacher: "胡老师",
+      peoplenum: "833",
+      price: "300",
+      detailinfo: "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。",
+      menu: [{ //
+        chaptername: "数组",
+        kids: [{
+          name: "位运算",
+        },
+        {
+          name: "巴拉巴拉",
+        }
+        ]
+      },
+      { //
+        chaptername: "栈",
+        kids: [{
+          name: "过程实现",
+        },
+        {
+          name: "很多很多很多",
+        }
+        ]
+      },
+      { //
+        chaptername: "队列",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "链表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "树",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "散列表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "堆",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "图",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+
+      ]
+    },
+    {
+      classid: "27",
+      headimgsrc: URL +  "/images/img/java/mp4.png",
+      title: "C++修炼大法",
+      cate: "C/C++",
+      teacher: "胡老师",
+      peoplenum: "833",
+      price: "300",
+      detailinfo: "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。",
+      menu: [{ //
+        chaptername: "数组",
+        kids: [{
+          name: "位运算",
+        },
+        {
+          name: "巴拉巴拉",
+        }
+        ]
+      },
+      { //
+        chaptername: "栈",
+        kids: [{
+          name: "过程实现",
+        },
+        {
+          name: "很多很多很多",
+        }
+        ]
+      },
+      { //
+        chaptername: "队列",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "链表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "树",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "散列表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "堆",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "图",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+
+      ]
+    },
+    {
+      classid: "28",
+      headimgsrc: URL +  "/images/img/java/mp4.png",
+      title: "django基础讲解",
+      cate: "django",
+      teacher: "胡老师",
+      peoplenum: "833",
+      price: "300",
+      detailinfo: "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。",
+      menu: [{ //
+        chaptername: "数组",
+        kids: [{
+          name: "位运算",
+        },
+        {
+          name: "巴拉巴拉",
+        }
+        ]
+      },
+      { //
+        chaptername: "栈",
+        kids: [{
+          name: "过程实现",
+        },
+        {
+          name: "很多很多很多",
+        }
+        ]
+      },
+      { //
+        chaptername: "队列",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "链表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "树",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "散列表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "堆",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "图",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+
+      ]
+    },
+    {
+      classid: "29",
+      headimgsrc: URL +  "/images/img/java/mp4.png",
+      title: "django进阶拔高",
+      cate: "django",
+      teacher: "胡老师",
+      peoplenum: "833",
+      price: "300",
+      detailinfo: "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。",
+      menu: [{ //
+        chaptername: "数组",
+        kids: [{
+          name: "位运算",
+        },
+        {
+          name: "巴拉巴拉",
+        }
+        ]
+      },
+      { //
+        chaptername: "栈",
+        kids: [{
+          name: "过程实现",
+        },
+        {
+          name: "很多很多很多",
+        }
+        ]
+      },
+      { //
+        chaptername: "队列",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "链表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "树",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "散列表",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "堆",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+      { //
+        chaptername: "图",
+        kids: [{
+          name: "二叉树",
+        },
+        {
+          name: "b树",
+        }
+        ]
+      },
+
+      ]
+    },
   ]
 ]
 

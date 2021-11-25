@@ -47,7 +47,8 @@ Page({
           {
             child_id:7,
             name:'小程序',
-            image: "/images/icons/icon6/前端开发/小程序.svg"
+            image: "/images/icons/icon6/前端开发/小程序.svg",
+            cate_class:'小程序'
           }
         ]
       },
@@ -63,17 +64,20 @@ Page({
           {
             child_id:2,
             name:'SpringBoot',
-            image: "/images/icons/icon6/后端开发/bxl-spring-boot.svg"
+            image: "/images/icons/icon6/后端开发/bxl-spring-boot.svg",
+            cate_class:'springboot'
           },
           {
             child_id:3,
             name:'C/C++',
-            image: "/images/icons/icon6/后端开发/c++语言.svg"
+            image: "/images/icons/icon6/后端开发/c++语言.svg",
+            cate_class:'C/C++'
           },
           {
             child_id:4,
             name:'django',
-            image: "/images/icons/icon6/后端开发/django.svg"
+            image: "/images/icons/icon6/后端开发/django.svg",
+            cate_class:'django'
           },
           {
             child_id:5,
