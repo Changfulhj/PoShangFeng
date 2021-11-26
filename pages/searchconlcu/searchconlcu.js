@@ -1,17 +1,37 @@
 // pages/searchconlcu/searchconlcu.js
+import {homedata} from '../../data/homedata.js';
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    classesdata:null,
+    classname:null
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    const classname = options.classname;
+    const classesdata = homedata[2];
+    this.setData({
+      classname,
+      classesdata
+    })
+    
+
+    
+  },
+
+  goTodetail(event){
+    console.log(event);
+    const cid = event.currentTarget.dataset.classId
+    wx.navigateTo({
+      url: '/pages/classdetail/classdetail?cid=' + cid
+    })
 
   },
 

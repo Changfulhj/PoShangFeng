@@ -1,6 +1,6 @@
 // pages/classstudy/classstudy.js
 import {homedata} from '../../data/homedata.js';
-const URL = "192.168.8.11:8080"
+const URL = "http://192.168.8.110:8080"
 Page({
 
   /**
@@ -34,6 +34,7 @@ Page({
 
   gotoviedo(e){
     console.log(e)
+    
     this.setData({
       currentVedio:e.currentTarget.dataset.viedoId
     })

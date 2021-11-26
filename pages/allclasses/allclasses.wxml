@@ -1,5 +1,5 @@
 <view class="test-container">
-  <l-search-bar class="l-container-class" placeholder="搜索" />
+  <l-search-bar bind:linconfirm="gotoSearch" class="l-container-class" placeholder="搜索" />
 
   <view class="all-classes">
     <scroll-view class='nav_left' scroll-y='true'>

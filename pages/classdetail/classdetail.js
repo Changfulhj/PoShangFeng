@@ -45,15 +45,16 @@ Page({
       url: URL + "/collected",
       data:{
         username,
-        cid
+        collected:cid
       },
       method:"GET",
       success(res){
+        console.log(res);
         if (res.data == "collectedOK"){
-          console.log(收藏好了);
+          console.log("收藏好了");
         }
         else if (res.data == "uncollectedOK"){
-          console.log(取消好了);
+          console.log("取消好了");
         }
       }
     })

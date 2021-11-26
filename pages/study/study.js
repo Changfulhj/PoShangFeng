@@ -42,12 +42,13 @@ Page({
         username
       },
       success(res) {
+        console.log(res);
         let temp = res.data;
         let myclasses = [];
-        temp = Array.from(temp);
+        temp = temp.split(",");
         myclasses = temp;
         myclasses.forEach(function (item, index, arr) {
-          if (item === ",") {
+          if (item === "," || item==="" || item==="-1") {
             myclasses.splice(index, 1);
           }
         });
@@ -103,13 +104,13 @@ Page({
         username
       },
       success(res) {
-        console.log(res);
+        console.log(res)
         let temp = res.data;
         let myclasses = [];
-        temp = Array.from(temp);
+        temp = temp.split(",");
         myclasses = temp;
         myclasses.forEach(function (item, index, arr) {
-          if (item === ",") {
+          if (item === "," || item==="" || item === "-1") {
             myclasses.splice(index, 1);
           }
         });

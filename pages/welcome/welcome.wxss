@@ -31,8 +31,13 @@ page{
   top: 60rpx;
   right: 100rpx;
   z-index:0;
-  background-color: #f56565;
+  background-color: #ffffff;
  } 
+
+ .login-icon image{
+  width: 160rpx;
+  height: 160rpx;
+ }
 
  .info-inputview{
   margin-left: 30rpx;

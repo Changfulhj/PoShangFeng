@@ -1,7 +1,7 @@
 //index.js
 //获取应用实例
 const app = getApp()
- 
+const URL = "http://192.168.8.110"
 Page({
   data: {
     username: '',

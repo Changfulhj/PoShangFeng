@@ -1,5 +1,5 @@
 // pages/study/study.js
-const URL = "http://192.168.8.110:8080/colltectd";
+const URL = "http://192.168.8.110:8080/collected_all";
 const app = getApp();
 import {
   homedata
@@ -43,11 +43,11 @@ Page({
       },
       success(res) {
         let temp = res.data;
+        temp = temp.split(",");
         let mycollected = [];
-        temp = Array.from(temp);
         mycollected = temp;
         mycollected.forEach(function (item, index, arr) {
-          if (item === ",") {
+          if (item === "," || item==="" || item==="-1") {
             mycollected.splice(index, 1);
           }
         });
@@ -103,13 +103,13 @@ Page({
         username
       },
       success(res) {
-        console.log(res);
+        console.log(res)
         let temp = res.data;
+        temp = temp.split(",");
         let mycollected = [];
-        temp = Array.from(temp);
         mycollected = temp;
         mycollected.forEach(function (item, index, arr) {
-          if (item === ",") {
+          if (item === "," || item==="" || item==="-1") {
             mycollected.splice(index, 1);
           }
         });

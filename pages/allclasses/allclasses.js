@@ -313,6 +313,15 @@ Page({
     })
   },
 
+  gotoSearch(e){
+    console.log(e);
+    const calssname = e.detail.value;
+    console.log(calssname);
+    wx.navigateTo({
+      url: '/pages/searchconlcu/searchconlcu?classname=' + calssname,
+    })
+  },
+
 
 
   /**

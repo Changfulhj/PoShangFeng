@@ -1,7 +1,6 @@
 <view class="detail-container">
-  <image src="{{thisclassdata.headimgsrc}}" class="head-img"></image>
+  <image src="{{thisclassdata.fenmian}}" class="head-img"></image>
   <view class="class-shuxing">
-    <image src="/images/pexels-giovanni-calia-5625995.png"></image>
     <text>所属：balb</text>
     <text>讲师：{{thisclassdata.teacher}}</text>
   </view>

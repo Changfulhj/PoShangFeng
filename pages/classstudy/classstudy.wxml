@@ -1,12 +1,12 @@
 <!--pages/classstudy/classstudy.wxml-->
 <view class="classstudy-container">
-  <video src="{{URL}}/data/videos/{{thisclass.name}}/{{currentVedio.name}}.mp4"></video>
+  <video src="{{URL}}/data/{{thisclass.cate}}/{{currentVedio.name}}.mp4"></video>
 
   <view class="swiper-tab">
     <view class="swiper-tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTab">课程目录</view>
   </view>
 
-  <block>
+  <block class="class-menu-container">
     <l-collapse class="class-menu" wx:for="{{thisclass.menu}}" type="accordion">
       <l-collapse-item l-title-class="l-collapse-title-class" l-class="l-collapse-class" title="{{item.chaptername}}">
         <view class="menu-item" wx:for="{{item.kids}}" bindtap="gotoviedo" data-viedo-id="{{item}}">{{item.name}}</view>

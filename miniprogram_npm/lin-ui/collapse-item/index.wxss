@@ -3,6 +3,7 @@
   flex-direction: column;
   width: 100%;
   box-sizing: border-box;
+  border-radius: 20rpx;
 }
 
 .container-title {
@@ -13,9 +14,9 @@
   font-size: 48rpx;
   font-weight: 800;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(255, 255, 255);
-  border-bottom: 1rpx solid rgb(247, 188, 188);
-  background-color: rgb(240, 117, 117);
+  color: rgb(68, 68, 68);
+  box-shadow: 0rpx 2rpx 3rpx 0rpx rgb(216, 216, 216);
+  background-color: rgb(226, 242, 248);
 }
 
 .container-title-l-icon {

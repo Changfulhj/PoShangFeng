@@ -10,7 +10,7 @@
   </swiper>
 
   <view class="recommend-nav">
-
+  
     <view class="nav1">
       <block wx:for="{{nav1data}}">
         <view bindtap="jumpTos" class="nav-item">
