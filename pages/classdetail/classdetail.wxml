@@ -7,8 +7,8 @@
 
   <view class="dresses">
     <view class="dresses-cir">
-      <image wx:if="{{collected}}" bind:tap="onCollect" src="/images/icons/icon4/收藏夹.svg"></image>
-      <image wx:else bind:tap="onCollect" src="/images/icons/icon4/未收藏.svg"></image>
+      <image wx:if="{{collected}}" bind:tap="onCollect" src="/images/icons/icon4/have_collected.svg"></image>
+      <image wx:else bind:tap="onCollect" src="/images/icons/icon4/dont_collected.svg"></image>
     </view>
     <view class="line"></view>
   </view>

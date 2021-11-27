@@ -1,4 +1,6 @@
 <!--pages/home/home.wxml-->
+
+
 <view class="home-container">
   <swiper autoplay="{{true}}" interval="2000">
     <swiper-item>

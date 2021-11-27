@@ -3,44 +3,44 @@ const URL = app.globalData.URL;
 var homedata = [
   [ //导航栏第一栏数据
     {
-      NavIcon: "/images/icons/icons2/后端.png",
+      NavIcon: "/images/icons/icons2/hhh.png",
       NavItemName: "后端开发",
       jumpsrc:"/pages/allclasses/allclasses"
     },
     {
-      NavIcon: "/images/icons/icons2/前端.png",
+      NavIcon: "/images/icons/icons2/qqq.png",
       NavItemName: "前端开发",
       jumpsrc:"/pages/allclasses/allclasses"
     },
     {
-      NavIcon: "/images/icons/icons2/手机.png",
+      NavIcon: "/images/icons/icons2/bbb.png",
       NavItemName: "移动开发",
       jumpsrc:"/pages/allclasses/allclasses"
     },
     {
-      NavIcon: "/images/icons/icons2/游戏.png",
+      NavIcon: "/images/icons/icons2/ccc.png",
       NavItemName: "游戏开发",
       jumpsrc:"/pages/allclasses/allclasses"
     }
   ],
   [ //导航栏第二栏数据
     {
-      NavIcon: "/images/icons/icons2/c++语言.png",
+      NavIcon: "/images/icons/icons2/cbb.png",
       NavItemName: "C++",
       jumpsrc:"/pages/test/test?cc=C++" 
     },
     {
-      NavIcon: "/images/icons/icons2/JAVA开发.png",
+      NavIcon: "/images/icons/icons2/JAV.png",
       NavItemName: "Java",
       jumpsrc:"/pages/test/test?cc=Java"
     },
     {
-      NavIcon: "/images/icons/icons2/SQL语言.png",
+      NavIcon: "/images/icons/icons2/SQL.png",
       NavItemName: "sql",
       jumpsrc:"/pages/test/test?cc=sql"
     },
     {
-      NavIcon: "/images/icons/icons2/Go语言.png",
+      NavIcon: "/images/icons/icons2/Go.png",
       NavItemName: "Go",
       jumpsrc:"/pages/test/test?cc=go语言"
     }

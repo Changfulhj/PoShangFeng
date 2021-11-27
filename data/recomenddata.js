@@ -3,7 +3,7 @@ const URL = app.globalData.URL;
 var reconmenddata = [
   {
     classid:"0",
-    headimgsrc: URL + "/images/img/数据结构/" + "/2mp4.png",
+    headimgsrc: URL + "/images/img/数据结构/" + "/mp4.png",
     title:"数据结构与算法分析",
     cate:"数据结构",
     teacher:"李老师",
@@ -12,7 +12,7 @@ var reconmenddata = [
   },
   {
     classid:"1",
-    headimgsrc: URL + "/images/img/深入理解计算机系统/" + "/2mp4.png",
+    headimgsrc: URL + "/images/img/深入理解计算机系统/" + "/mp4.png",
     title:"深入理解计算机系统",
     cate:"计算机基础",
     teacher:"吴老师",
