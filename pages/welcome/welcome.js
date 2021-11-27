@@ -1,9 +1,10 @@
 //index.js
 //获取应用实例
 const app = getApp()
-const URL = "http://192.168.8.110"
+const URL = app.globalData.URL;
 Page({
   data: {
+    URL,
     username: '',
     password: ''
   },
@@ -45,7 +46,7 @@ Page({
     }
     else {
       wx.request({
-        url: 'http://192.168.8.110:8080/region',
+        url: URL + '/region',
         method:'get',
         data:{
           username:this.data.username,
@@ -87,7 +88,7 @@ Page({
     } 
     else {
       wx.request({
-        url: 'http://192.168.8.110:8080/login',
+        url: URL +  '/login',
         method: 'get',
         data: {
           username: that.data.username,

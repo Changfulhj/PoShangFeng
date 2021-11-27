@@ -1,6 +1,6 @@
 // pages/study/study.js
-const URL = "http://192.168.8.110:8080/buied";
 const app = getApp();
+const URL = app.globalData.URL;
 import {
   homedata
 } from '../../data/homedata.js';
@@ -11,7 +11,8 @@ Page({
    */
   data: {
     myclasses: null,
-    myclassesdata:[]
+    myclassesdata:[],
+    URL
   },
 
 
@@ -36,7 +37,7 @@ Page({
     })
     const username = app.globalData.username
     wx.request({
-      url: URL,
+      url: URL + '/buied',
       method: 'GET',
       data: {
         username
@@ -98,7 +99,7 @@ Page({
     var that = this;
     const username = app.globalData.username
     wx.request({
-      url: URL,
+      url: URL + '/buied',
       method: 'GET',
       data: {
         username

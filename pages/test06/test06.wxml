@@ -1,2 +1,0 @@
-<!--pages/test06/test06.wxml-->
-<button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber"> </button>

@@ -1,6 +1,8 @@
 // pages/classstudy/classstudy.js
+const app = getApp();
+const URL = app.globalData.URL;
 import {homedata} from '../../data/homedata.js';
-const URL = "http://192.168.8.110:8080"
+
 Page({
 
   /**

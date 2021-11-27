@@ -1,5 +1,5 @@
-const URL = "http://192.168.8.110:8080"
-
+const app = getApp();
+const URL = app.globalData.URL;
 var homedata = [
   [ //导航栏第一栏数据
     {

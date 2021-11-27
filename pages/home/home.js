@@ -1,5 +1,6 @@
 // pages/home/home.js
-
+const app = getApp();
+const URL = app.globalData.URL;
 import {homedata} from '../../data/homedata.js';
 import {reconmenddata} from '../../data/recomenddata.js'
 
@@ -9,7 +10,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    URL:"http://192.168.8.110:8080"
+    URL
   },
 
   /**

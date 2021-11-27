@@ -5,7 +5,7 @@
   </view>
 
   <view class="login-icon">
-    <image src="http://192.168.8.110:8080/images/logo_my.png"></image>
+    <image src="{{URL}}/images/logo_my.png"></image>
   </view>
   
   <view class="login-from">
